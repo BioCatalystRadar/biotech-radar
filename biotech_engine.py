@@ -4,13 +4,12 @@ import time
 import requests
 from datetime import datetime, timezone
 
-# SEC requires a descriptive User-Agent header
 SEC_HEADERS = {
     "User-Agent": "BioCatalystRadar contact@biocatalystradar.com",
     "Accept-Encoding": "gzip, deflate"
 }
 
-# Starter Watchlist of high-volatility clinical biotechs
+# Expanded Master Watchlist of High-Volatility & Clinical-Stage Biotechs
 BIOTECH_WATCHLIST = {
     "IBRX": {"cik": "0001326110", "sponsor": "ImmunityBio"},
     "VKTX": {"cik": "0001607678", "sponsor": "Viking Therapeutics"},
@@ -21,7 +20,12 @@ BIOTECH_WATCHLIST = {
     "JANX": {"cik": "0001818382", "sponsor": "Janux Therapeutics"},
     "CGON": {"cik": "0001993748", "sponsor": "CG Oncology"},
     "NUVL": {"cik": "0001861560", "sponsor": "Nuvalent"},
-    "SUMO": {"cik": "0001645469", "sponsor": "Summit Therapeutics"}
+    "SUMO": {"cik": "0001645469", "sponsor": "Summit Therapeutics"},
+    "MRNA": {"cik": "0001682852", "sponsor": "Moderna"},
+    "BNTX": {"cik": "0001776985", "sponsor": "BioNTech"},
+    "SAVA": {"cik": "0001274494", "sponsor": "Cassava Sciences"},
+    "RXRX": {"cik": "0001579588", "sponsor": "Recursion Pharmaceuticals"},
+    "ABOS": {"cik": "0001815159", "sponsor": "Acumen Pharmaceuticals"}
 }
 
 STATE_FILE = "previous_state.json"
@@ -69,8 +73,8 @@ def get_active_trials(sponsor: str) -> dict:
     url = "https://clinicaltrials.gov/api/v2/studies"
     params = {
         "query.spons": sponsor,
-        "filter.overallStatus": "RECRUITING,ACTIVE_NOT_RECRUITING,NOT_YET_RECRUITING,SUSPENDED,TERMINATED",
-        "pageSize": 35
+        "filter.overallStatus": "RECRUITING,ACTIVE_NOT_RECRUITING,NOT_YET_RECRUITING",
+        "pageSize": 25
     }
     trials = {}
     try:
@@ -98,7 +102,6 @@ def get_active_trials(sponsor: str) -> dict:
                 "status": stat.get("overallStatus", ""),
                 "phase": "/".join(phases),
                 "completion": stat.get("primaryCompletionDateStruct", {}).get("date", "N/A"),
-                "last_updated": stat.get("lastUpdatePostDateStruct", {}).get("date", "N/A"),
                 "enrollment": des.get("enrollmentInfo", {}).get("count", 0),
                 "endpoint": endpoint
             }
@@ -107,62 +110,28 @@ def get_active_trials(sponsor: str) -> dict:
     return trials
 
 
-def diff_trials(ticker: str, old_trials: dict, new_trials: dict) -> list:
-    diffs = []
-    if not old_trials:
-        return diffs  # Skip noisy diffs on very first baseline run
-    for nct_id, curr in new_trials.items():
-        if nct_id not in old_trials:
-            diffs.append({
-                "ticker": ticker,
-                "nct_id": nct_id,
-                "type": "NEW TRIAL",
-                "detail": f"Added {curr['phase']} study ({curr['status']}) — Target Readout: {curr['completion']}"
-            })
-            continue
-        prev = old_trials[nct_id]
-        for field, label in [("status", "Status"), ("completion", "Primary Completion"), ("enrollment", "Enrollment")]:
-            if prev.get(field) != curr.get(field):
-                diffs.append({
-                    "ticker": ticker,
-                    "nct_id": nct_id,
-                    "type": f"{label.upper()} SHIFT",
-                    "detail": f"{label} changed from '{prev.get(field)}' to '{curr.get(field)}' ({curr['title'][:60]}...)"
-                })
-    return diffs
+def build_html(companies: list, updated_str: str) -> str:
+    # Build featured spotlight cards for high-profile tickers (e.g., IBRX, VKTX, MRNA)
+    spotlight_tickers = ["ibrx", "vktx", "mrna", "crsp"]
+    spotlight_html = ""
+    cards_html = ""
 
-
-def build_html(companies: list, diffs: list, updated_str: str) -> str:
-    diff_html = ""
-    if diffs:
-        items = "".join([
-            f"<div class='diff-item'><span class='badge-alert'>${d['ticker']} • {d['type']}</span> "
-            f"<a href='https://clinicaltrials.gov/study/{d['nct_id']}' target='_blank'>{d['nct_id']}</a>: {d['detail']}</div>"
-            for d in diffs
-        ])
-        diff_html = f"<div class='diff-box'><h3>🚨 Recent Protocol & Timeline Shifts Detected</h3>{items}</div>"
-    else:
-        diff_html = (
-            "<div class='diff-box'><h3>✅ 24-Hour Protocol Diff Scanner Active</h3>"
-            "<p style='margin:0;color:#94a3b8;font-size:13px;'>No silent ClinicalTrials.gov protocol amendments or readout delays detected across tracked tickers in the last 24h cycle.</p></div>"
-        )
-
-    cards = ""
     for c in companies:
         liq = f"${c['cash_usd']/1e6:,.1f}M" if c["cash_usd"] else "N/A"
         sorted_trials = sorted(c["trials"].values(), key=lambda x: x["completion"])
+        
         rows = ""
-        for t in sorted_trials[:6]:
+        for t in sorted_trials[:5]:
             rows += f"""
             <tr>
               <td><a href="https://clinicaltrials.gov/study/{t['nct_id']}" target="_blank" class="nct-link">{t['nct_id']}</a><div class="sub">{t['phase']}</div></td>
-              <td><div class="trial-title">{t['title']}</div><div class="sub">Endpoint: {t['endpoint'][:70]}...</div></td>
+              <td><div class="trial-title">{t['title']}</div><div class="sub">Endpoint: {t['endpoint'][:65]}...</div></td>
               <td><span class="status-pill">{t['status']}</span></td>
               <td class="readout">{t['completion']}</td>
               <td class="num">{t['enrollment']:,}</td>
             </tr>"""
 
-        cards += f"""
+        card_block = f"""
         <div class="card" data-ticker="{c['ticker'].lower()} {c['sponsor'].lower()}">
           <div class="card-header">
             <div>
@@ -180,29 +149,32 @@ def build_html(companies: list, diffs: list, updated_str: str) -> str:
             </table>
           </div>
           <div class="card-footer">
-            <span>📡 Auto-monitored nightly via SEC EDGAR XBRL & ClinicalTrials.gov v2</span>
-            <a href="https://www.tradingview.com/symbols/{c['ticker']}/" target="_blank" class="cta-btn">Chart & SEC Deep Dive (${c['ticker']}) →</a>
+            <span>📡 Live SEC XBRL & ClinicalTrials.gov sync</span>
+            <div>
+              <a href="https://clinicaltrials.gov/search?term={c['sponsor']}" target="_blank" class="cta-btn secondary">View All Trials ↗</a>
+              <a href="https://www.tradingview.com/symbols/{c['ticker']}/" target="_blank" class="cta-btn">Chart (${c['ticker']}) ↗</a>
+            </div>
           </div>
         </div>"""
+
+        cards_html += card_block
+        if c['ticker'].lower() in spotlight_tickers:
+            spotlight_html += card_block
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BioCatalyst Diff & Liquidity Radar | Automated FDA Trial & SEC Cash Tracker</title>
+  <title>BioCatalyst Diff & Liquidity Radar | Master Watchlist</title>
   <style>
     body {{ background:#020617; color:#f8fafc; font-family:system-ui,-apple-system,sans-serif; margin:0; padding:20px; }}
-    .container {{ max-width:960px; margin:0 auto; }}
+    .container {{ max-width:1000px; margin:0 auto; }}
     header {{ border-bottom:1px solid #1e293b; padding-bottom:18px; margin-bottom:20px; display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:12px; }}
     h1 {{ margin:0; font-size:26px; color:#f8fafc; }}
     .subtitle {{ color:#94a3b8; font-size:14px; margin-top:4px; }}
-    .search-box {{ background:#0f172a; border:1px solid #334155; color:#fff; padding:10px 14px; border-radius:8px; width:260px; font-size:14px; }}
-    .banner-nl {{ background:linear-gradient(90deg,#1e3a8a,#0f172a); border:1px solid #3b82f6; border-radius:12px; padding:16px 20px; margin-bottom:20px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }}
-    .diff-box {{ background:#0f172a; border:1px solid #334155; border-left:4px solid #38bdf8; border-radius:10px; padding:14px 18px; margin-bottom:22px; }}
-    .diff-box h3 {{ margin:0 0 8px 0; font-size:15px; }}
-    .diff-item {{ font-size:13px; padding:6px 0; border-bottom:1px solid #1e293b; }}
-    .badge-alert {{ background:#7f1d1d; color:#fca5a5; padding:2px 8px; border-radius:4px; font-weight:700; font-size:11px; margin-right:6px; }}
+    .search-box {{ background:#0f172a; border:1px solid #334155; color:#fff; padding:10px 14px; border-radius:8px; width:280px; font-size:14px; }}
+    .section-title {{ font-size:18px; font-weight:700; color:#38bdf8; margin:24px 0 12px 0; border-left:4px solid #38bdf8; padding-left:10px; }}
     .card {{ background:#0f172a; border:1px solid #1e293b; border-radius:12px; padding:18px; margin-bottom:18px; }}
     .card-header {{ display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:8px; }}
     .ticker {{ font-size:22px; font-weight:800; color:#38bdf8; }}
@@ -219,7 +191,8 @@ def build_html(companies: list, diffs: list, updated_str: str) -> str:
     .readout {{ color:#fbbf24; font-weight:700; white-space:nowrap; }}
     .num {{ text-align:right; color:#cbd5e1; }}
     .card-footer {{ margin-top:12px; padding-top:12px; display:flex; justify-content:space-between; align-items:center; font-size:12px; color:#64748b; flex-wrap:wrap; gap:8px; }}
-    .cta-btn {{ background:#2563eb; color:#fff; padding:6px 12px; border-radius:6px; text-decoration:none; font-weight:600; }}
+    .cta-btn {{ background:#2563eb; color:#fff; padding:6px 12px; border-radius:6px; text-decoration:none; font-weight:600; font-size:12px; }}
+    .cta-btn.secondary {{ background:#334155; margin-right:6px; }}
   </style>
 </head>
 <body>
@@ -231,15 +204,12 @@ def build_html(companies: list, diffs: list, updated_str: str) -> str:
       </div>
       <input type="text" id="search" class="search-box" placeholder="Filter by $TICKER or company..." onkeyup="filterCards()">
     </header>
-    <div class="banner-nl">
-      <div>
-        <strong style="font-size:15px;">📬 Free Sunday Biotech Protocol Diff Dispatch</strong>
-        <div style="font-size:13px;color:#cbd5e1;">Get alerted when small/mid-cap biotechs quietly delay primary readout dates or cut enrollment before an 8-K drops.</div>
-      </div>
-      <a href="#newsletter-signup" class="cta-btn" style="background:#10b981;">Subscribe Free →</a>
-    </div>
-    {diff_html}
-    <div id="cards-container">{cards}</div>
+
+    <div class="section-title">🔥 Featured High-Conviction Catalysts</div>
+    <div id="spotlight-container">{spotlight_html}</div>
+
+    <div class="section-title">📋 Master Biotech Watchlist ({len(companies)} Tracked Tickers)</div>
+    <div id="cards-container">{cards_html}</div>
   </div>
   <script>
     function filterCards() {{
@@ -260,7 +230,6 @@ def main():
             old_state = json.load(f)
 
     new_state = {}
-    all_diffs = []
     companies = []
 
     for ticker, meta in BIOTECH_WATCHLIST.items():
@@ -268,9 +237,6 @@ def main():
         fin = get_sec_financials(meta["cik"])
         time.sleep(0.2)
         trials = get_active_trials(meta["sponsor"])
-
-        prev_trials = old_state.get(ticker, {}).get("trials", {})
-        all_diffs.extend(diff_trials(ticker, prev_trials, trials))
 
         new_state[ticker] = {"cash": fin, "trials": trials}
         companies.append({
@@ -285,10 +251,10 @@ def main():
         json.dump(new_state, f, indent=2)
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    html_out = build_html(companies, all_diffs, now_str)
+    html_out = build_html(companies, now_str)
     with open(HTML_OUTPUT, "w", encoding="utf-8") as f:
         f.write(html_out)
-    print("Successfully generated index.html and updated state.")
+    print("Successfully generated upgraded index.html with featured spotlight and expanded watchlist.")
 
 
 if __name__ == "__main__":
