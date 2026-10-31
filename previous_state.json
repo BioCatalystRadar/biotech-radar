@@ -1,0 +1,1442 @@
+{
+  "IBRX": {
+    "cash": {
+      "total_liquidity_usd": 357371000,
+      "as_of": "2026-06-30"
+    },
+    "trials": {
+      "NCT03317158": {
+        "nct_id": "NCT03317158",
+        "title": "Modern Immunotherapy in BCG-Unresponsive, BCG-Relapsing and High Risk BCG-Naive Non-Muscle Invasive Urothelial Carcinoma of the Bladder",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-12-31",
+        "last_updated": "2026-07-15",
+        "enrollment": 186,
+        "endpoint": "Phase 1: Determine the recommended phase 2 dose (RP2D) from BCG-unresponsive non-muscle invasive bladder cancer (NMIBC)"
+      },
+      "NCT07123727": {
+        "nct_id": "NCT07123727",
+        "title": "A Study to Examine Anktiva for the Treatment of COVID-19.",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-03",
+        "last_updated": "2026-09-24",
+        "enrollment": 40,
+        "endpoint": "Incidence of treatment emergent adverse events (TEAEs) through 30 days post final study drug administration."
+      },
+      "NCT06022224": {
+        "nct_id": "NCT06022224",
+        "title": "A 2nd Generation E1/E2B/E3-Deleted Adenoviral COVID-19 Vaccine: The TCELL VACCINE TRIAL",
+        "status": "TERMINATED",
+        "phase": "PHASE2/PHASE3",
+        "completion": "2022-06-23",
+        "last_updated": "2024-06-07",
+        "enrollment": 35,
+        "endpoint": "Number of Participants With Adverse Events"
+      },
+      "NCT01898793": {
+        "nct_id": "NCT01898793",
+        "title": "Cytokine-induced Memory-like NK Cells in Patients With Acute Myeloid Leukemia (AML) or Myelodysplastic Syndrome (MDS)",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2021-12-28",
+        "last_updated": "2024-01-17",
+        "enrollment": 89,
+        "endpoint": "Maximal Tolerated or Tested Dose (MT/TD) of CIML-NK Cells (Phase I)"
+      },
+      "NCT03586869": {
+        "nct_id": "NCT03586869",
+        "title": "QUILT-3.080: NANT Pancreatic Cancer Vaccine",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2019-04-17",
+        "last_updated": "2024-08-27",
+        "enrollment": 3,
+        "endpoint": "Number of Participants With Treatment-emergent Adverse Events (AEs) and Serious AEs (SAEs)"
+      },
+      "NCT05976828": {
+        "nct_id": "NCT05976828",
+        "title": "IBRX-042 In Participants With HPV-Associated Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-09-02",
+        "last_updated": "2026-08-31",
+        "enrollment": 12,
+        "endpoint": "Determine the maximum tolerated dose of IBRX-042"
+      },
+      "NCT06710288": {
+        "nct_id": "NCT06710288",
+        "title": "A Phase 2, Open-label, Single-arm Study Of Autologous M-CENK Adoptive Cell Therapy And N-803 (IL-15 Superagonist) In Combination With Gemcitabine In Participants With Recurrent Platinum-Resistant High-Grade Ovarian Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-05",
+        "last_updated": "2026-07-01",
+        "enrollment": 20,
+        "endpoint": "Evaluate Progression Free Survival (PFS)"
+      },
+      "NCT06334991": {
+        "nct_id": "NCT06334991",
+        "title": "Study for Participants With Relapsed/Refractory Non-Hodgkin Lymphoma",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-10",
+        "last_updated": "2026-07-10",
+        "enrollment": 20,
+        "endpoint": "Overall safety evaluation in combining CD19 t haNK as a single agent with rituximab"
+      },
+      "NCT04927884": {
+        "nct_id": "NCT04927884",
+        "title": "A Study of Sacituzumab With Chemoimmunotherapy to Treat Advanced Triple-Negative Breast Cancer After Prior Therapies",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2022-09-13",
+        "last_updated": "2024-06-12",
+        "enrollment": 3,
+        "endpoint": "Number of Participants With Treatment Emergent Adverse Events"
+      },
+      "NCT06061809": {
+        "nct_id": "NCT06061809",
+        "title": "N-803 and PD-L1 t-haNK Combined With Bevacizumab for Recurrent or Progressive Glioblastoma",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2029-12-31",
+        "last_updated": "2026-07-01",
+        "enrollment": 34,
+        "endpoint": "Incidence of treatment-emergent adverse events (TEAEs) and serious adverse events (SAEs)"
+      },
+      "NCT02138734": {
+        "nct_id": "NCT02138734",
+        "title": "A Study of Intravesical BCG in Combination With ALT-803 in Patients With Non-Muscle Invasive Bladder Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2026-09-30",
+        "last_updated": "2026-03-31",
+        "enrollment": 369,
+        "endpoint": "Complete Response (CR) Rate"
+      },
+      "NCT04898543": {
+        "nct_id": "NCT04898543",
+        "title": "QUILT-3.076: Study of Autologous M-CENK in Subjects With Locally Advanced or Metastatic Solid Tumors",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2026-05-31",
+        "last_updated": "2025-12-11",
+        "enrollment": 50,
+        "endpoint": "Primary Objective (cohort 1 and cohort 2, part A subjects): Determine the safety of mononuclear cell (MNC) apheresis collection by the number of treatment-emergent adverse events (TEAEs) and serious adverse events (SAEs) related to apheresis."
+      },
+      "NCT07556757": {
+        "nct_id": "NCT07556757",
+        "title": "A Safety and Efficacy Study of CD-19 t-haNK in Patients With B-cell Acute Lymphoblastic Leukemia",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2026-07-01",
+        "last_updated": "2026-08-19",
+        "enrollment": 4,
+        "endpoint": "Evaluate safety of CD19 t-haNK as a single agent in participants with selected CD19+ relapsed B-ALL."
+      },
+      "NCT05981131": {
+        "nct_id": "NCT05981131",
+        "title": "Follow up of Intravesical N-803 Plus BCG in BCG-Naive Non-Muscle Invasive Bladder Cancer (NMIBC)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "N/A",
+        "completion": "2033-08-30",
+        "last_updated": "2026-04-29",
+        "enrollment": 6,
+        "endpoint": "Obtain Long Term Follow-Up data to be summarized using descriptive statistics"
+      },
+      "NCT03329248": {
+        "nct_id": "NCT03329248",
+        "title": "QUILT-3.060: NANT Pancreatic Cancer Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2018-08-13",
+        "last_updated": "2024-12-12",
+        "enrollment": 6,
+        "endpoint": "Number of Participants With Treatment-emergent Adverse Events (AEs) and Serious AEs (SAEs)"
+      },
+      "NCT04340596": {
+        "nct_id": "NCT04340596",
+        "title": "Safety, Tolerability, and Efficacy of IL-15 Superagonist (N-803) With and Without Combination Broadly Neutralizing Antibodies to Induce HIV-1 Control During Analytic Treatment Interruption",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2026-05-07",
+        "last_updated": "2026-08-26",
+        "enrollment": 118,
+        "endpoint": "Occurrence of a Grade \u22653 adverse event (AE) that is at least possibly related to N-803, as judged by the Clinical Management Committee (CMC)"
+      },
+      "NCT07628062": {
+        "nct_id": "NCT07628062",
+        "title": "Phase 2 Study of NAI, HPV Vaccine, and Nab-Paclitaxel in HPV-Positive Oropharyngeal Cancer Followed by De-Intensified Radiation Compared With Standard Chemoradiation",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2030-12-31",
+        "last_updated": "2026-06-04",
+        "enrollment": 70,
+        "endpoint": "Progression-Free Survival (PFS)"
+      },
+      "NCT07355205": {
+        "nct_id": "NCT07355205",
+        "title": "First-Line Ipilimumab Plus Nivolumab and Nogapendekin Alfa Inbakicept (N-803) in Patients With Stage IV or Recurrent Non-Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2032-07-31",
+        "last_updated": "2026-07-10",
+        "enrollment": 26,
+        "endpoint": "Progression-free survival (PFS) (Phase Ib acceptable dose participants and Phase II participants)"
+      },
+      "NCT03387085": {
+        "nct_id": "NCT03387085",
+        "title": "QUILT-3.067: NANT Triple Negative Breast Cancer (TNBC) Vaccine: Molecularly Informed Integrated Immunotherapy in Subjects With TNBC Who Have Progressed on or After Standard-of-care Therapy.",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2020-09-11",
+        "last_updated": "2024-08-09",
+        "enrollment": 9,
+        "endpoint": "Number of Participants With Treatment-emergent Adverse Events (AEs) and Serious AEs (SAEs)"
+      },
+      "NCT06239220": {
+        "nct_id": "NCT06239220",
+        "title": "PD-L1 t-haNK, NAI IL-15sa and Cetuximab for Recurrent, Metastatic HNSCC",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2026-12-31",
+        "last_updated": "2026-10-19",
+        "enrollment": 25,
+        "endpoint": "Objective Response Rate (ORR)"
+      },
+      "NCT03022825": {
+        "nct_id": "NCT03022825",
+        "title": "QUILT-3.032: A Multicenter Clinical Trial of Intravesical Bacillus Calmette-Guerin (BCG) in Combination With ALT-803 (N-803) in Patients With BCG Unresponsive High Grade Non-Muscle Invasive Bladder Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2/PHASE3",
+        "completion": "2024-10-01",
+        "last_updated": "2025-10-16",
+        "enrollment": 190,
+        "endpoint": "Complete Response"
+      },
+      "NCT06745908": {
+        "nct_id": "NCT06745908",
+        "title": "Clinical Trial of N-803 Plus Tislelizumab or Prior Failed Immune Checkpoint Inhibitor and Docetaxel Versus Docetaxel Monotherapy in Participants With Advanced or Metastatic Non-Small Cell Lung Cancer Who Have Acquired Resistance to Immune Checkpoint In",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-09",
+        "last_updated": "2026-07-27",
+        "enrollment": 507,
+        "endpoint": "Compare Overall Survival between the experimental and control arms"
+      },
+      "NCT03387111": {
+        "nct_id": "NCT03387111",
+        "title": "QUILT-3.090: NANT Squamous Cell Carcinoma (SCC) Vaccine: Subjects With SCC Who Have Progressed",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2019-04-17",
+        "last_updated": "2024-08-05",
+        "enrollment": 4,
+        "endpoint": "Number of Participants With Treatment-emergent Adverse Events (AEs) and Serious AEs (SAEs)"
+      },
+      "NCT03387098": {
+        "nct_id": "NCT03387098",
+        "title": "QUILT-3.070:Pancreatic Cancer Vaccine: Subjects With Pancreatic Cancer Who Have Progressed on or After Standard-of-care Therapy",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2018-09-12",
+        "last_updated": "2024-05-22",
+        "enrollment": 4,
+        "endpoint": "Number of Participants With Treatment-emergent Adverse Events (AEs) and Serious AEs (SAEs), Graded Using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) Version 4.03."
+      },
+      "NCT04385849": {
+        "nct_id": "NCT04385849",
+        "title": "Study of the Safety of Therapeutic Treatment With an Immunomodulatory Agent (N-803) in Adults With COVID-19",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2020-07-25",
+        "last_updated": "2024-09-05",
+        "enrollment": 1,
+        "endpoint": "Number of Participants With Adverse Events"
+      },
+      "NCT04397796": {
+        "nct_id": "NCT04397796",
+        "title": "Study of the Safety of Therapeutic Tx With Immunomodulatory MSC in Adults With COVID-19 Infection Requiring Mechanical Ventilation",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2020-09-06",
+        "last_updated": "2024-09-05",
+        "enrollment": 4,
+        "endpoint": "Number of Participants With Adverse Events Within 30 Days of Randomization"
+      },
+      "NCT07756593": {
+        "nct_id": "NCT07756593",
+        "title": "Sipuleucel-T (Sip-T) in Combination With N-803 in Metastatic Androgen Pathway Modulation Resistant (mAPMR) Prostate Cancer",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2029-04-14",
+        "last_updated": "2026-08-10",
+        "enrollment": 30,
+        "endpoint": "Frequency of dose-limiting toxicities (Cohort 1 only)"
+      },
+      "NCT07783789": {
+        "nct_id": "NCT07783789",
+        "title": "NAI Plus Standard of Care Compared With Placebo Plus Standard of Care in Critically Ill Adults With Sepsis",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-05-12",
+        "last_updated": "2026-09-25",
+        "enrollment": 50,
+        "endpoint": "28-day all-cause mortality rate"
+      },
+      "NCT04732468": {
+        "nct_id": "NCT04732468",
+        "title": "COVID-19 Oral and Subcutaneous Vaccination Using a 2nd Generation (E1/E2B/E3-Deleted) Adenovirus Platform in Healthy Volunteers in USA",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2022-07-11",
+        "last_updated": "2024-10-15",
+        "enrollment": 28,
+        "endpoint": "Incidence of Solicited Local Reactogenicity AEs"
+      },
+      "NCT07108036": {
+        "nct_id": "NCT07108036",
+        "title": "A Study to Assess Anktiva in Patients With Long Covid-19.",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2026-10",
+        "last_updated": "2026-05-11",
+        "enrollment": 20,
+        "endpoint": "Incidence of treatment emergent adverse events (TEAEs) through 30 days post final study drug administration."
+      },
+      "NCT07125872": {
+        "nct_id": "NCT07125872",
+        "title": "Study of Relapsed/ Refractory B-cell Non- Hodgkin Lymphoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-05-25",
+        "last_updated": "2026-05-04",
+        "enrollment": 20,
+        "endpoint": "Primary Endpoints( Efficacy)"
+      },
+      "NCT03563157": {
+        "nct_id": "NCT03563157",
+        "title": "QUILT 3.071: NANT Colorectal Cancer (CRC) Vaccine",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2019-04-21",
+        "last_updated": "2024-12-11",
+        "enrollment": 2,
+        "endpoint": "Number of Participants With Treatment-emergent Adverse Events (AEs) and Serious AEs (SAEs)"
+      },
+      "NCT06829823": {
+        "nct_id": "NCT06829823",
+        "title": "Clinical Trial of Ablation Therapy in Participants With Intermediate-Risk Non-Muscle Invasive Papillary Bladder Cancer",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2026-11",
+        "last_updated": "2025-10-16",
+        "enrollment": 20,
+        "endpoint": "Efficacy of Arms A and B at Month 3 and Month 6"
+      },
+      "NCT03853317": {
+        "nct_id": "NCT03853317",
+        "title": "QUILT-3.063: A Study of N-803, haNK and Avelumab in Patients With Merkel Cell Carcinoma That Has Progressed After Checkpoint Therapy",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "completion": "2021-09-29",
+        "last_updated": "2024-08-09",
+        "enrollment": 9,
+        "endpoint": "Number of Participants With Adverse Events"
+      },
+      "NCT02465957": {
+        "nct_id": "NCT02465957",
+        "title": "QUILT-3.009: Patients With Stage III (IIIB) or Stage (IV) Merkel Cell Carcinoma (MCC)",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "completion": "2018-03-19",
+        "last_updated": "2024-05-02",
+        "enrollment": 7,
+        "endpoint": "Number of Participants With Progression Free Survival Rate at 4 Months"
+      }
+    }
+  },
+  "VKTX": {
+    "cash": {
+      "total_liquidity_usd": 11251626,
+      "as_of": "2016-03-31"
+    },
+    "trials": {
+      "NCT07868939": {
+        "nct_id": "NCT07868939",
+        "title": "Oral VK2735 for Weight Management in Adults With Type 2 Diabetes Mellitus Phase 3 (SUNRISE 2)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-10",
+        "last_updated": "2026-10-16",
+        "enrollment": 560,
+        "endpoint": "Percent change in body weight for participants with type 2 diabetes mellitus receiving VK2735 orally once daily"
+      },
+      "NCT07846033": {
+        "nct_id": "NCT07846033",
+        "title": "A Phase 1 Study of VK3019 in Overweight and Obese Adults Without Comorbidities",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2026-10-02",
+        "last_updated": "2026-09-29",
+        "enrollment": 56,
+        "endpoint": "Evaluate the safety of single doses of subcutaneous administration of VK3019"
+      },
+      "NCT07868835": {
+        "nct_id": "NCT07868835",
+        "title": "Oral VK2735 for Weight Management Phase 3 (SUNRISE 1)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-07",
+        "last_updated": "2026-10-16",
+        "enrollment": 560,
+        "endpoint": "Percentage change in body weight for participants receiving VK2735 orally once daily"
+      },
+      "NCT07838740": {
+        "nct_id": "NCT07838740",
+        "title": "A Phase 1 Study of VK2735 in Obese Adults Without Comorbidities",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-05",
+        "last_updated": "2026-09-24",
+        "enrollment": 270,
+        "endpoint": "Evaluate the Safety and Tolerability VK2735"
+      },
+      "NCT07104383": {
+        "nct_id": "NCT07104383",
+        "title": "VK2735 for Weight Management Type 2 Diabetes Phase 3 (VANQUISH 2)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2027-07-01",
+        "last_updated": "2026-04-07",
+        "enrollment": 1100,
+        "endpoint": "Percent change in body weight from baseline to Week 78 in body weight"
+      },
+      "NCT07104500": {
+        "nct_id": "NCT07104500",
+        "title": "VK2735 for Weight Management Phase 3",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2027-07-01",
+        "last_updated": "2025-11-24",
+        "enrollment": 4500,
+        "endpoint": "Percentage change in body weight from baseline for participants receiving VK2735 after 78 weeks of treatment"
+      }
+    }
+  },
+  "CRSP": {
+    "cash": {
+      "total_liquidity_usd": 2364352000,
+      "as_of": "2026-06-30"
+    },
+    "trials": {
+      "NCT07804004": {
+        "nct_id": "NCT07804004",
+        "title": "A Safety and Efficacy Study Evaluating CTX112 in Subjects With Refractory Neurologic Autoimmune Disease",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2029-12-30",
+        "last_updated": "2026-10-22",
+        "enrollment": 220,
+        "endpoint": "To evaluate the safety of CTX112 in adult participants with neurological autoimmue disorders, including PMS, relapsing NMOSD, relapsing MOGAD, refractory AIE, and refractory SPS."
+      },
+      "NCT04438083": {
+        "nct_id": "NCT04438083",
+        "title": "A Safety and Efficacy Study Evaluating CTX130 in Subjects With Relapsed or Refractory Renal Cell Carcinoma (COBALT-RCC)",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2024-10-08",
+        "last_updated": "2025-01-08",
+        "enrollment": 19,
+        "endpoint": "Part A (dose escalation): Incidence of adverse events"
+      },
+      "NCT07549698": {
+        "nct_id": "NCT07549698",
+        "title": "Safety and Preliminary Efficacy of CTX112 in Adult Participants With Relapsed/Refractory Hematologic Autoimmune Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2033-12",
+        "last_updated": "2026-10-20",
+        "enrollment": 60,
+        "endpoint": "To evaluate the safety of CTX112 in adult participants with refractory hematologic autoimmune diseases, including ITP or wAIHA."
+      },
+      "NCT04035434": {
+        "nct_id": "NCT04035434",
+        "title": "A Safety and Efficacy Study Evaluating CTX110 in Subjects With Relapsed or Refractory B-Cell Malignancies (CARBON)",
+        "status": "TERMINATED",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2024-10-04",
+        "last_updated": "2025-10-24",
+        "enrollment": 93,
+        "endpoint": "Dose Escalation Phase 1: Number of Participants With Dose-limiting Toxicities (DLT) in NHL and B Cell ALL Population"
+      },
+      "NCT07758634": {
+        "nct_id": "NCT07758634",
+        "title": "A Trial Evaluating Safety, Tolerability and Efficacy of CTX340 in Participants With Hypertension",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-07-01",
+        "last_updated": "2026-08-11",
+        "enrollment": 69,
+        "endpoint": "Phase 1: Incidence of dose-limiting toxicities (DLTs)"
+      },
+      "NCT05356195": {
+        "nct_id": "NCT05356195",
+        "title": "Evaluation of Safety and Efficacy of CTX001 in Pediatric Participants With Transfusion-Dependent \u03b2-Thalassemia (TDT)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2027-11-14",
+        "last_updated": "2026-07-01",
+        "enrollment": 16,
+        "endpoint": "Proportion of Participants who Achieve Transfusion Independence for at Least 12 Consecutive Months (TI12)"
+      },
+      "NCT05565248": {
+        "nct_id": "NCT05565248",
+        "title": "An Open-Label, FIH Study Evaluating the Safety, Tolerability, and Efficacy of VCTX211 Combination Product in Subjects With T1D",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2025-08-08",
+        "last_updated": "2026-05-07",
+        "enrollment": 5,
+        "endpoint": "Incidence of adverse events with causality related to VCTX211 units, the surgical procedures and/or medical interventions required to implant and explant the VCTX211 units."
+      },
+      "NCT04502446": {
+        "nct_id": "NCT04502446",
+        "title": "A Safety and Efficacy Study Evaluating CTX130 in Subjects With Relapsed or Refractory T or B Cell Malignancies (COBALT-LYM)",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2024-08-30",
+        "last_updated": "2025-01-08",
+        "enrollment": 49,
+        "endpoint": "Part A (dose escalation)"
+      },
+      "NCT06925542": {
+        "nct_id": "NCT06925542",
+        "title": "A Safety and Efficacy Study Evaluating CTX112 in Adult Subjects With Refractory Autoimmune Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2031-12-31",
+        "last_updated": "2026-10-26",
+        "enrollment": 80,
+        "endpoint": "To evaluate the safety of CTX112 in adult subjects with refractory autoimmune diseases, including SLE, SSc or IIM"
+      },
+      "NCT07850076": {
+        "nct_id": "NCT07850076",
+        "title": "A Trial Evaluating the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of CTX460 in Adults With Emphysema Associated With Severe Alpha-1 Antitrypsin Deficiency (AATD)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2030-06-30",
+        "last_updated": "2026-09-30",
+        "enrollment": 68,
+        "endpoint": "Phase 1: To evaluate the safety and tolerability of CTX460 in adults with emphysema associated with severe AATD and to determine the recommended Phase 2 dose(s)"
+      },
+      "NCT05643742": {
+        "nct_id": "NCT05643742",
+        "title": "A Safety and Efficacy Study Evaluating CTX112 in Subjects With Relapsed or Refractory B-Cell Malignancies",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2030-01",
+        "last_updated": "2025-11-14",
+        "enrollment": 120,
+        "endpoint": "Phase 1 (Dose Escalation): Incidence of adverse events, defined as dose-limiting toxicities"
+      },
+      "NCT04244656": {
+        "nct_id": "NCT04244656",
+        "title": "A Safety and Efficacy Study Evaluating CTX120 in Subjects With Relapsed or Refractory Multiple Myeloma",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2024-01-04",
+        "last_updated": "2025-01-08",
+        "enrollment": 26,
+        "endpoint": "Part A (dose escalation): Incidence of adverse events"
+      },
+      "NCT07491172": {
+        "nct_id": "NCT07491172",
+        "title": "A Safety and Tolerability Trial Evaluating CTX310 in Participants With Refractory Dyslipidemias",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-06",
+        "last_updated": "2026-09-18",
+        "enrollment": 90,
+        "endpoint": "To evaluate the safety of CTX310 in adult subjects with dyslipidemias that are refractory to available treatments"
+      },
+      "NCT05329649": {
+        "nct_id": "NCT05329649",
+        "title": "Evaluation of Safety and Efficacy of CTX001 in Pediatric Participants With Severe Sickle Cell Disease (SCD)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2027-06-06",
+        "last_updated": "2026-07-01",
+        "enrollment": 13,
+        "endpoint": "Proportion of Participants who do not Have any Severe Vaso-occlusive Crises (VOCs) for at Least 12 Consecutive Months (VF12)"
+      }
+    }
+  },
+  "BEAM": {
+    "cash": {
+      "total_liquidity_usd": 1200000000,
+      "as_of": "2026-06-30"
+    },
+    "trials": {
+      "NCT05885464": {
+        "nct_id": "NCT05885464",
+        "title": "A Study Evaluating the Safety and Efficacy of BEAM-201 in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2026-12",
+        "last_updated": "2025-01-13",
+        "enrollment": 5,
+        "endpoint": "Incidence and severity of treatment-emergent adverse events (TEAEs) and treatment-related adverse events, including serious adverse events (SAEs) and dose-limiting toxicities (DLTs; in Phase 1 only)"
+      },
+      "NCT07373639": {
+        "nct_id": "NCT07373639",
+        "title": "A Long-term Follow-up Study in Patients Who Received BEAM-101",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "completion": "2043-02-12",
+        "last_updated": "2026-01-28",
+        "enrollment": 50,
+        "endpoint": "Long-Term Safety Monitoring and Mortality Assessment"
+      },
+      "NCT06934382": {
+        "nct_id": "NCT06934382",
+        "title": "Anti-CD7 CAR-T Cells in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia or Lymphoma",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2029-05-30",
+        "last_updated": "2026-07-07",
+        "enrollment": 33,
+        "endpoint": "Determine the Maximum Tolerate Dose of Beam 201 Cells"
+      },
+      "NCT07304791": {
+        "nct_id": "NCT07304791",
+        "title": "This is a Phase 1, Randomized, Single-blind, Placebo-controlled Study to Assess the Safety, Pharmacokinetics (PK), and Pharmacodynamics (PD) of BEAM-103 in Healthy Subjects",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2026-01-29",
+        "last_updated": "2025-12-26",
+        "enrollment": 30,
+        "endpoint": "To determine the safety and tolerability of single ascending doses of BEAM-103"
+      },
+      "NCT06071377": {
+        "nct_id": "NCT06071377",
+        "title": "Achieving Understanding of the Natural History of Sickle Cell Trait (AUNT)",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "completion": "2026-12",
+        "last_updated": "2026-10-07",
+        "enrollment": 1000,
+        "endpoint": "Hemoglobin variant quantification"
+      },
+      "NCT06735755": {
+        "nct_id": "NCT06735755",
+        "title": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa)",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2027-12-30",
+        "last_updated": "2025-12-15",
+        "enrollment": 36,
+        "endpoint": "To evaluate the safety and tolerability of BEAM-301 in patients with GSDIa with a G6PC1 c.247C>T (p.R83C) variant by measuring incidence of treatment-emergent adverse events (TEAEs) including serious adverse events (SAEs) and dose-limiting toxicities (DL"
+      },
+      "NCT06389877": {
+        "nct_id": "NCT06389877",
+        "title": "A Study to Evaluate the Safety and Efficacy of BEAM-302 in Adult Patients With Alpha-1 Antitrypsin Deficiency (AATD)",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-05",
+        "last_updated": "2026-10-05",
+        "enrollment": 192,
+        "endpoint": "Rates of treatment-emergent adverse events (TEAEs) and serious adverse events (SAEs)"
+      },
+      "NCT05456880": {
+        "nct_id": "NCT05456880",
+        "title": "BEACON: A Study Evaluating the Safety and Efficacy of BEAM-101 in Patients With Severe Sickle Cell Disease",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-02",
+        "last_updated": "2025-12-16",
+        "enrollment": 15,
+        "endpoint": "Change in annualized number of severe VOCs (Vascular-occlusive Crisis) relative to baseline"
+      }
+    }
+  },
+  "IOVA": {
+    "cash": {
+      "total_liquidity_usd": 610200000,
+      "as_of": "2021-03-31"
+    },
+    "trials": {
+      "NCT06481592": {
+        "nct_id": "NCT06481592",
+        "title": "A Study of Lifileucel (Tumor-infiltrating Lymphocytes) in Adults With Advanced Endometrial Cancer.",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-05",
+        "last_updated": "2025-10-30",
+        "enrollment": 60,
+        "endpoint": "Objective Response Rate"
+      },
+      "NCT07288073": {
+        "nct_id": "NCT07288073",
+        "title": "TIL Therapy in cSCC and MCC",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-09-29",
+        "last_updated": "2026-02-13",
+        "enrollment": 14,
+        "endpoint": "Tumor-infiltrating lymphocyte (TIL) Production"
+      },
+      "NCT07192900": {
+        "nct_id": "NCT07192900",
+        "title": "Fast TILs to Treat Metastatic Cancer Patients With Pleural Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2033-04",
+        "last_updated": "2026-08-04",
+        "enrollment": 10,
+        "endpoint": "Document the feasibility of local manufacture of ACT product from drained pleural effusions using the CliniMACS Prodigy\u00ae device"
+      },
+      "NCT06566092": {
+        "nct_id": "NCT06566092",
+        "title": "Study of Autologous Tumor-Infiltrating Lymphocytes in Pediatric, Adolescent, and Young Adult Participants",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2026-06-19",
+        "last_updated": "2026-10-16",
+        "enrollment": 5,
+        "endpoint": "Incidence rate of Treatment-Emergent Adverse Events"
+      },
+      "NCT03449108": {
+        "nct_id": "NCT03449108",
+        "title": "LN-145 or LN-145-S1 in Treating Patients With Relapsed or Refractory Ovarian Cancer, Triple Negative Breast Cancer (TNBC), Anaplastic Thyroid Cancer, Osteosarcoma, or Other Bone and Soft Tissue Sarcomas",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-04-30",
+        "last_updated": "2026-05-22",
+        "enrollment": 30,
+        "endpoint": "Objective response rate"
+      },
+      "NCT05176470": {
+        "nct_id": "NCT05176470",
+        "title": "Neoadj Admin Autologous Tumor Infiltrating Lymphocytes & Pembrolizumab for Treatment of Adv Melanoma Patients",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2023-07-14",
+        "last_updated": "2026-02-24",
+        "enrollment": 2,
+        "endpoint": "Feasibility of neoadjuvant administration of MK-3475 and LN-144/Lifileucel in 3 stage IIIB-D melanoma patients (Phase 1)"
+      },
+      "NCT04614103": {
+        "nct_id": "NCT04614103",
+        "title": "Autologous LN-145 in Patients With Metastatic Non-Small-Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2030-12",
+        "last_updated": "2026-06-26",
+        "enrollment": 170,
+        "endpoint": "Objective Response Rate"
+      },
+      "NCT07700121": {
+        "nct_id": "NCT07700121",
+        "title": "PICSTAT Pilot Study for CD8 PET/CT-Guided Lifileucel Treatment in Advanced Melanoma",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "EARLY_PHASE1",
+        "completion": "2028-10-01",
+        "last_updated": "2026-07-13",
+        "enrollment": 10,
+        "endpoint": "TILs"
+      },
+      "NCT05361174": {
+        "nct_id": "NCT05361174",
+        "title": "A Study to Investigate the Efficacy and Safety of an Infusion of IOV-4001 in Adult Participants With Unresectable or Metastatic Melanoma or Stage III or IV Non-small-cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2027-09",
+        "last_updated": "2026-06-11",
+        "enrollment": 53,
+        "endpoint": "Phase I: Safety of IOV-4001"
+      },
+      "NCT05686226": {
+        "nct_id": "NCT05686226",
+        "title": "E7 TCR-T Cell Immunotherapy for Human Papillomavirus (HPV) Associated Cancers",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-01-01",
+        "last_updated": "2026-10-28",
+        "enrollment": 20,
+        "endpoint": "Tumor response"
+      },
+      "NCT07288203": {
+        "nct_id": "NCT07288203",
+        "title": "A Study of Lifileucel (Tumor-infiltrating Lymphocytes) in Adults With Advanced Melanoma",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-12",
+        "last_updated": "2026-10-01",
+        "enrollment": 24,
+        "endpoint": "Objective Response Rate"
+      },
+      "NCT03108495": {
+        "nct_id": "NCT03108495",
+        "title": "Study of LN-145, Autologous Tumor Infiltrating Lymphocytes in the Treatment of Patients With Cervical Carcinoma",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "completion": "2025-08-22",
+        "last_updated": "2026-09-25",
+        "enrollment": 210,
+        "endpoint": "Cohort 1 and 2: Objective Response Rate"
+      },
+      "NCT05483491": {
+        "nct_id": "NCT05483491",
+        "title": "KK-LC-1 TCR-T Cell Therapy for Gastric, Breast, Cervical, and Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2028-09-01",
+        "last_updated": "2026-10-28",
+        "enrollment": 30,
+        "endpoint": "Maximum tolerated dose (MTD) of KK-LC-1 TCR-T cells"
+      },
+      "NCT03610490": {
+        "nct_id": "NCT03610490",
+        "title": "Autologous Tumor Infiltrating Lymphocytes MDA-TIL in Treating Patients With Recurrent or Refractory Ovarian Cancer, Colorectal Cancer, or Pancreatic Ductal Adenocarcinoma",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "completion": "2024-08-21",
+        "last_updated": "2025-04-17",
+        "enrollment": 16,
+        "endpoint": "Objective Response Rate (ORR) in Participants With Ovarian Cancer (OVCA), PDAC (Pancreatic Cancer), and Colorectal Cancers (CRC) According to RECIST v1.1 in Subjects With Ovarian Cancer (OVCA), PDAC (Pancreatic Cancer), and Colorectal Cancers (CRC)"
+      },
+      "NCT07743723": {
+        "nct_id": "NCT07743723",
+        "title": "A Study of IOV-5001 in Adults With Advanced Solid Tumors",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2034-03",
+        "last_updated": "2026-09-15",
+        "enrollment": 106,
+        "endpoint": "Phase 1: Safety Assessment"
+      },
+      "NCT05639972": {
+        "nct_id": "NCT05639972",
+        "title": "E7 T-cell Receptor (TCR) -T Cell Induction Therapy for Locoregionally Advanced HPV-associated Cancers",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-10-01",
+        "last_updated": "2026-10-28",
+        "enrollment": 15,
+        "endpoint": "Feasibility of administering E7 TCR-T cell therapy as induction treatment for LAHPVC"
+      },
+      "NCT06940739": {
+        "nct_id": "NCT06940739",
+        "title": "A Study to Investigate the Safety and Efficacy of IOV-3001 in Adults With Advanced Melanoma Who Will Receive Lifileucel",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2032-06",
+        "last_updated": "2026-06-15",
+        "enrollment": 42,
+        "endpoint": "Safety and Tolerability"
+      },
+      "NCT05727904": {
+        "nct_id": "NCT05727904",
+        "title": "Study to Investigate Lifileucel Regimen Plus Pembrolizumab Compared With Pembrolizumab Alone in Participants With Untreated Advanced Melanoma.",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-03-01",
+        "last_updated": "2026-09-24",
+        "enrollment": 670,
+        "endpoint": "Objective Response Rate and Progression Free Survival"
+      },
+      "NCT05607095": {
+        "nct_id": "NCT05607095",
+        "title": "A Study of LN-144 or LN-145 in People With Advanced Uveal Melanoma, Undifferentiated Pleomorphic Sarcoma, Dedifferentiated Liposarcoma, or Angiosarcoma",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-05-01",
+        "last_updated": "2026-09-15",
+        "enrollment": 40,
+        "endpoint": "Adverse events as evaluated by CTCAE v5.0"
+      },
+      "NCT05640193": {
+        "nct_id": "NCT05640193",
+        "title": "A Study of LN-144 in People With Metastatic Melanoma to the Brain",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-11",
+        "last_updated": "2026-09-11",
+        "enrollment": 10,
+        "endpoint": "Feasibility of treatment with LN-144 in patients with asymptomatic Metastatic Melanoma to the Brain (MMB)"
+      },
+      "NCT03645928": {
+        "nct_id": "NCT03645928",
+        "title": "Study of Autologous Tumor Infiltrating Lymphocytes in Patients With Solid Tumors",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "completion": "2026-02-20",
+        "last_updated": "2026-05-15",
+        "enrollment": 225,
+        "endpoint": "Objective Response Rate"
+      },
+      "NCT01937468": {
+        "nct_id": "NCT01937468",
+        "title": "Trial of Regulatory T-cells Plus Low-Dose Interleukin-2 for Steroid-Refractory Chronic Graft-versus-Host-Disease",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2017-08",
+        "last_updated": "2026-02-05",
+        "enrollment": 25,
+        "endpoint": "Adverse event profile and the maximum tolerate dose of Treg-enriched infusion plus 8-week low-dose IL-2"
+      },
+      "NCT07741877": {
+        "nct_id": "NCT07741877",
+        "title": "A Study of Lifileucel (Tumor-infiltrating Lymphocytes) in Adults With Advanced Soft Tissue Sarcoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2033-09-01",
+        "last_updated": "2026-10-09",
+        "enrollment": 80,
+        "endpoint": "Objective Response Rate"
+      }
+    }
+  },
+  "BDTX": {
+    "cash": {
+      "total_liquidity_usd": 5631000000,
+      "as_of": "2018-03-31"
+    },
+    "trials": {
+      "NCT05256290": {
+        "nct_id": "NCT05256290",
+        "title": "Phase 1/2 Study of Silevertinib (BDTX-1535) in Patients With Glioblastoma or Non-Small Cell Lung Cancer With EGFR Mutations",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2025-11-03",
+        "last_updated": "2026-07-22",
+        "enrollment": 200,
+        "endpoint": "Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535)"
+      },
+      "NCT04209465": {
+        "nct_id": "NCT04209465",
+        "title": "A Study of BDTX-189, an Orally Available Allosteric ErbB Inhibitor, in Patients With Advanced Solid Tumors.",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "completion": "2022-09-02",
+        "last_updated": "2025-04-17",
+        "enrollment": 91,
+        "endpoint": "Number of Dose Limiting Toxicities as a Determinant of the Recommended Phase 2 Dose (RP2D)"
+      },
+      "NCT07326566": {
+        "nct_id": "NCT07326566",
+        "title": "Study of Silevertinib With Temozolomide for the Treatment of Newly Diagnosed GBM With Unmethylated MGMT and EGFRvIII",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-11",
+        "last_updated": "2026-10-23",
+        "enrollment": 162,
+        "endpoint": "Progression-free survival (PFS) assessed by Blinded Independent Central Review (BICR)"
+      }
+    }
+  },
+  "JANX": {
+    "cash": {
+      "total_liquidity_usd": 80400000,
+      "as_of": "2023-12-31"
+    },
+    "trials": {
+      "NCT07545811": {
+        "nct_id": "NCT07545811",
+        "title": "Study of JANX014 in Subjects With Metastatic Castration-Resistant Prostate Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2028-05",
+        "last_updated": "2026-09-03",
+        "enrollment": 43,
+        "endpoint": "Incidence of Dose Limiting Toxicities (DLTs)"
+      },
+      "NCT05519449": {
+        "nct_id": "NCT05519449",
+        "title": "Study of JANX007 in Subjects With Metastatic Castration-Resistant Prostate Cancer (ENGAGER-PSMA-01)",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-07",
+        "last_updated": "2026-10-29",
+        "enrollment": 272,
+        "endpoint": "Incidence of Dose Limiting Toxicities (DLT)"
+      },
+      "NCT07813637": {
+        "nct_id": "NCT07813637",
+        "title": "Phase 1 Trial to Study JANX013 and JANX007 Combination in mCRPC",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2029-07",
+        "last_updated": "2026-09-17",
+        "enrollment": 110,
+        "endpoint": "Incidence of adverse events (AEs), serious adverse events (SAEs), and dose-limiting toxicities (DLTs)"
+      },
+      "NCT07291323": {
+        "nct_id": "NCT07291323",
+        "title": "Study of JANX011 in Healthy Adult Volunteers to Assess Safety and Tolerability.",
+        "status": "RECRUITING",
+        "phase": "EARLY_PHASE1",
+        "completion": "2026-10",
+        "last_updated": "2026-04-23",
+        "enrollment": 60,
+        "endpoint": "Incidence, severity, and relatedness of TEAEs, treatment-emergent SAEs, and treatment-emergent AESIs."
+      },
+      "NCT05783622": {
+        "nct_id": "NCT05783622",
+        "title": "Study of JANX008 in Subjects With Advanced or Metastatic Solid Tumor Malignancies",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2026-07-31",
+        "last_updated": "2026-06-01",
+        "enrollment": 130,
+        "endpoint": "Incidence of Dose Limiting Toxicities (DLT)"
+      }
+    }
+  },
+  "CGON": {
+    "cash": {
+      "total_liquidity_usd": 0,
+      "as_of": "N/A"
+    },
+    "trials": {
+      "NCT06111235": {
+        "nct_id": "NCT06111235",
+        "title": "A Study of Adjuvant Cretostimogene Grenadenorepvec for Treatment of Intermediate Risk NMIBC Following TURBT",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2026-11",
+        "last_updated": "2026-07-01",
+        "enrollment": 367,
+        "endpoint": "Recurrence Free Survival (RFS)"
+      },
+      "NCT06567743": {
+        "nct_id": "NCT06567743",
+        "title": "Phase 2 Study to Evaluate Safety and Efficacy of Cretostimogene Grenadenorepvec in High-Risk NMIBC",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-03-31",
+        "last_updated": "2026-09-03",
+        "enrollment": 325,
+        "endpoint": "Cohort A (Arm 1 and 2): Complete response rate"
+      },
+      "NCT04452591": {
+        "nct_id": "NCT04452591",
+        "title": "Study of Cretostimogene Given in Patients With Non-Muscle Invasive Bladder Cancer ,Unresponsive to Bacillus-Calmette-Guerin",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2030-06-16",
+        "last_updated": "2026-07-10",
+        "enrollment": 190,
+        "endpoint": "Cohort C:"
+      },
+      "NCT01438112": {
+        "nct_id": "NCT01438112",
+        "title": "Efficacy Study of Recombinant Adenovirus for Non Muscle Invasive Bladder Cancer",
+        "status": "TERMINATED",
+        "phase": "PHASE2/PHASE3",
+        "completion": "2016-06",
+        "last_updated": "2021-04-14",
+        "enrollment": 22,
+        "endpoint": "Complete Response Proportion (CR)"
+      }
+    }
+  },
+  "NUVL": {
+    "cash": {
+      "total_liquidity_usd": 1287476000,
+      "as_of": "2026-03-31"
+    },
+    "trials": {
+      "NCT06521554": {
+        "nct_id": "NCT06521554",
+        "title": "A Study of NVL-330 in Patients With Advanced or Metastatic HER2-altered NSCLC (HEROEX-1)",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2027-01",
+        "last_updated": "2026-10-20",
+        "enrollment": 200,
+        "endpoint": "Recommended Phase 2 Dose (RP2D)"
+      },
+      "NCT05118789": {
+        "nct_id": "NCT05118789",
+        "title": "A Study of Zidesamtinib (NVL-520) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ROS1 Rearrangement (ARROS-1)",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2027-12-31",
+        "last_updated": "2026-09-24",
+        "enrollment": 359,
+        "endpoint": "Maximum Tolerated Dose (MTD) (Phase 1)"
+      },
+      "NCT05384626": {
+        "nct_id": "NCT05384626",
+        "title": "A Study of Neladalkib (NVL-655) in Patients With Advanced NSCLC and Other Solid Tumors Harboring ALK Rearrangement or Activating ALK Mutation (ALKOVE-1)",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2027-12",
+        "last_updated": "2026-05-27",
+        "enrollment": 840,
+        "endpoint": "Dose limiting toxicities (DLTs) (Phase 1)"
+      },
+      "NCT06765109": {
+        "nct_id": "NCT06765109",
+        "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2029-12",
+        "last_updated": "2026-09-30",
+        "enrollment": 450,
+        "endpoint": "Progression-free survival (PFS) per blinded independent central review (BICR)"
+      }
+    }
+  },
+  "SUMO": {
+    "cash": {
+      "total_liquidity_usd": 10423444,
+      "as_of": "2023-03-31"
+    },
+    "trials": {
+      "NCT06567314": {
+        "nct_id": "NCT06567314",
+        "title": "Phase 2 Study of Ivonescimab in Patients With Cutaneous Squamous Cell Carcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-09-01",
+        "last_updated": "2026-06-11",
+        "enrollment": 24,
+        "endpoint": "Safety and adverse events (AEs)"
+      },
+      "NCT06925724": {
+        "nct_id": "NCT06925724",
+        "title": "A Study of Ivonescimab in People With Endometrial and Cervical Cancers",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-04",
+        "last_updated": "2026-09-21",
+        "enrollment": 50,
+        "endpoint": "Overall response rate (ORR)"
+      },
+      "NCT07405190": {
+        "nct_id": "NCT07405190",
+        "title": "Ivonescimab Alone And With Carboplatin/Pemetrexed For NSCLC",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-03-01",
+        "last_updated": "2026-07-15",
+        "enrollment": 46,
+        "endpoint": "Objective Response Rate (ORR) of Ivonescimab Monotherapy"
+      },
+      "NCT06396065": {
+        "nct_id": "NCT06396065",
+        "title": "Phase III Study of AK112 for NSCLC Patients",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2025-04-12",
+        "last_updated": "2026-07-28",
+        "enrollment": 420,
+        "endpoint": "Progression-free survival (PFS)"
+      },
+      "NCT07234877": {
+        "nct_id": "NCT07234877",
+        "title": "Phase II Study of Upfront SRT Plus Ivonescimab/Chemotherapy vs Ivonescimab/Chemotherapy in NSCLC Brain Mets",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2032-01",
+        "last_updated": "2026-06-04",
+        "enrollment": 158,
+        "endpoint": "Intracranial progression-free survival based on local assessment using RANO-BM criteria"
+      },
+      "NCT06840834": {
+        "nct_id": "NCT06840834",
+        "title": "Evaluating Ivonescimab as a Potential Treatment for Pleural Mesothelioma Patients Whose Cancer Has Returned After Previous Immunotherapy and Chemotherapy",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2026-09-30",
+        "last_updated": "2026-08-10",
+        "enrollment": 38,
+        "endpoint": "To assess the therapeutic value of the bispecific antibody anti-VEGF / anti-PD-1 ivonescimab as 2nd/3rd line treatment in relapsing PM patients"
+      },
+      "NCT06767514": {
+        "nct_id": "NCT06767514",
+        "title": "Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients With High PD-L1",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-04",
+        "last_updated": "2026-09-18",
+        "enrollment": 780,
+        "endpoint": "Overall Survival (OS)"
+      },
+      "NCT07057791": {
+        "nct_id": "NCT07057791",
+        "title": "Phase II Study of Platinum/Etoposide Plus Ivonescimab for Extensive-Stage Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-12",
+        "last_updated": "2026-08-28",
+        "enrollment": 60,
+        "endpoint": "Optimal Dose of Ivonescimab in Combination with Carboplatin and Etoposide - Overall Response Rate (ORR)"
+      },
+      "NCT07017673": {
+        "nct_id": "NCT07017673",
+        "title": "Phase II Trial of Ivonescimab in Combination With Carboplatin + Docetaxel in Patients With Early-Stage Triple Negative Breast Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-12",
+        "last_updated": "2026-08-04",
+        "enrollment": 34,
+        "endpoint": "Pathological complete response (pCR) rate"
+      },
+      "NCT07877194": {
+        "nct_id": "NCT07877194",
+        "title": "A Clinical Study of Ivonescimab in Combination With Cadonilimab or Ipilimumab for Advanced Renal Cancer",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2029-04-12",
+        "last_updated": "2026-10-16",
+        "enrollment": 100,
+        "endpoint": "Objective Response Rate (ORR)"
+      },
+      "NCT07397338": {
+        "nct_id": "NCT07397338",
+        "title": "Study of RAS(ON) Inhibitors in Combination With Ivonescimab in Patients With Solid Tumors",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2029-05",
+        "last_updated": "2026-08-03",
+        "enrollment": 370,
+        "endpoint": "Number of patients with adverse events (AEs)"
+      },
+      "NCT07228832": {
+        "nct_id": "NCT07228832",
+        "title": "Phase III Study of Ivonescimab or Bevacizumab Combined With FOLFOX in Patients With Metastatic Colorectal Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-05-31",
+        "last_updated": "2026-10-06",
+        "enrollment": 600,
+        "endpoint": "PFS by IRRC based on RECIST v1.1"
+      },
+      "NCT07359456": {
+        "nct_id": "NCT07359456",
+        "title": "Testing Ivonescimab in Combination With Chemotherapy in Patients With Metastatic Colorectal Cancers Without Liver Metastases",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2029-08",
+        "last_updated": "2026-05-19",
+        "enrollment": 130,
+        "endpoint": "Progression Free Survival (PFS)"
+      },
+      "NCT07753824": {
+        "nct_id": "NCT07753824",
+        "title": "A Phase II Study of Ivonescimab Combined With Intraperitoneal Paclitaxel in Patients With High-Grade Metastatic Appendiceal Adenocarcinoma (AA)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2031-11-28",
+        "last_updated": "2026-08-27",
+        "enrollment": 30,
+        "endpoint": "Safety and adverse events (AEs)."
+      },
+      "NCT06846346": {
+        "nct_id": "NCT06846346",
+        "title": "Testing Ivonescimab in Combination With Chemotherapy in Advanced or Metastatic Gastric/Gastroesophageal Adenocarcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-09",
+        "last_updated": "2026-04-28",
+        "enrollment": 88,
+        "endpoint": "Objective Response Rate assessed by central review"
+      },
+      "NCT07094685": {
+        "nct_id": "NCT07094685",
+        "title": "Ivonescimab Before Surgery for the Treatment of Resectable Stage II-IV Head and Neck Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-08-01",
+        "last_updated": "2026-06-26",
+        "enrollment": 28,
+        "endpoint": "Major pathologic response rate"
+      },
+      "NCT07070466": {
+        "nct_id": "NCT07070466",
+        "title": "Ivonescimab in Comb. With FOLFOX in Advanced HER2 Neg. GEA",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2026-12-01",
+        "last_updated": "2026-08-28",
+        "enrollment": 40,
+        "endpoint": "6-month progression free survival rate"
+      },
+      "NCT07535437": {
+        "nct_id": "NCT07535437",
+        "title": "A Study of Ivonescimab in Combination With Dato-DXd or Osimertinib in People With Non-Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-04",
+        "last_updated": "2026-07-13",
+        "enrollment": 66,
+        "endpoint": "determine the maximum tolerated dose (MTD) (phase I)"
+      },
+      "NCT07619339": {
+        "nct_id": "NCT07619339",
+        "title": "A Study of Tepotinib and Ivonescimab in People With Non-Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "completion": "2029-05",
+        "last_updated": "2026-09-16",
+        "enrollment": 16,
+        "endpoint": "Dose finding"
+      },
+      "NCT06805617": {
+        "nct_id": "NCT06805617",
+        "title": "A Phase 2 Trial of Ivonescimab for Patients With Advanced, Metastatic Salivary Gland Cancers",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-07-01",
+        "last_updated": "2026-10-21",
+        "enrollment": 35,
+        "endpoint": "Objective Response Rate (ORR)"
+      },
+      "NCT06959550": {
+        "nct_id": "NCT06959550",
+        "title": "Phase II Study of Anti-PD-1/VEGF Bispecific Antibody Ivonescimab in Patients With Previously Treated Metastatic Colorectal Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-07-01",
+        "last_updated": "2026-05-20",
+        "enrollment": 90,
+        "endpoint": "1. Safety and Adverse Events (AEs)"
+      },
+      "NCT05899608": {
+        "nct_id": "NCT05899608",
+        "title": "Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2028-12-31",
+        "last_updated": "2026-10-08",
+        "enrollment": 1600,
+        "endpoint": "Overall Survival (OS)"
+      },
+      "NCT07815665": {
+        "nct_id": "NCT07815665",
+        "title": "A Study of Ivonescimab in Combination With Enfortumab Vedotin vs Pembrolizumab in Combination With Enfortumab Vedotin in Metastatic Urothelial Carcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2/PHASE3",
+        "completion": "2030-10-31",
+        "last_updated": "2026-09-11",
+        "enrollment": 800,
+        "endpoint": "Phase 2 Primary Outcome Measure"
+      },
+      "NCT02858362": {
+        "nct_id": "NCT02858362",
+        "title": "Proof of Concept Study to Assess Activity and Safety of SMT C1100 (Ezutromid) in Boys With Duchenne Muscular Dystrophy (DMD)",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "completion": "2018-04-11",
+        "last_updated": "2020-01-02",
+        "enrollment": 43,
+        "endpoint": "Change From Baseline in Magnetic Resonance Spectroscopy (MRS) Fat Fraction (FF) for Leg Muscles"
+      },
+      "NCT07516925": {
+        "nct_id": "NCT07516925",
+        "title": "A Study of Ivonescimab in People With Leiomyosarcoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2029-04",
+        "last_updated": "2026-10-22",
+        "enrollment": 20,
+        "endpoint": "Response"
+      },
+      "NCT04802837": {
+        "nct_id": "NCT04802837",
+        "title": "Safety, Tolerability and the Pharmacokinetics of Ridinilazole in Adolescent Subjects",
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "completion": "2021-09-17",
+        "last_updated": "2023-08-21",
+        "enrollment": 2,
+        "endpoint": "Incidence and Severity of Treatment-emergant Adverse Events"
+      },
+      "NCT06529718": {
+        "nct_id": "NCT06529718",
+        "title": "Testing Ivonescimab Versus FOLFOX in Advanced Biliary Tract Cancer Patients",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-08-03",
+        "last_updated": "2026-08-28",
+        "enrollment": 72,
+        "endpoint": "Progression-free survival (PFS)"
+      },
+      "NCT06980077": {
+        "nct_id": "NCT06980077",
+        "title": "Ivonescimab for the Treatment of Thymic Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2027-06-17",
+        "last_updated": "2026-10-05",
+        "enrollment": 25,
+        "endpoint": "Overall response rate (ORR)"
+      },
+      "NCT07535463": {
+        "nct_id": "NCT07535463",
+        "title": "A Study of Ivonescimab, Chemotherapy, and Stereotactic Radiosurgery for People With Non-Small Cell Lung Cancer",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-04",
+        "last_updated": "2026-04-17",
+        "enrollment": 53,
+        "endpoint": "identify the Recommended Phase 2 Dose (RPD2)"
+      },
+      "NCT07264075": {
+        "nct_id": "NCT07264075",
+        "title": "Study Comparing Ivonescimab Alone or Ivonescimab in Combination With Ligufalimab Versus Pembrolizumab for the Treatment of SCCHN",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "completion": "2030-05",
+        "last_updated": "2026-05-20",
+        "enrollment": 780,
+        "endpoint": "Overall survival"
+      },
+      "NCT05382442": {
+        "nct_id": "NCT05382442",
+        "title": "A Study of AK112 With or Without AK117 in Metastatic Colorectal Cancer",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2026-05-15",
+        "last_updated": "2025-10-14",
+        "enrollment": 254,
+        "endpoint": "Objective response rates (ORR)"
+      },
+      "NCT07743138": {
+        "nct_id": "NCT07743138",
+        "title": "STOMP OUT: A Phase 2 Study To Evaluate The Effects Of Ivonescimab In Patients With Unresectable/Metastatic Adrenocortical Carcinoma (ACC) Or Unresectable Pheochromocytoma/Paraganglioma (PPGL)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-05-01",
+        "last_updated": "2026-09-18",
+        "enrollment": 20,
+        "endpoint": "Safety and adverse events (AEs)"
+      },
+      "NCT06672575": {
+        "nct_id": "NCT06672575",
+        "title": "A Phase I/II Study of IVONESCIMAB in Recurrent Glioblastoma",
+        "status": "RECRUITING",
+        "phase": "PHASE1/PHASE2",
+        "completion": "2028-01-31",
+        "last_updated": "2026-07-21",
+        "enrollment": 45,
+        "endpoint": "Safety and Adverse Events (AEs)"
+      },
+      "NCT06940518": {
+        "nct_id": "NCT06940518",
+        "title": "Phase II Trial of Ivonescimab in Previously Treated Patients With Advanced Clear Cell Renal Cell Carcinoma",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "completion": "2028-01-19",
+        "last_updated": "2026-08-20",
+        "enrollment": 40,
+        "endpoint": "Safety and adverse events"
+      }
+    }
+  }
+}
