@@ -9,7 +9,7 @@ SEC_HEADERS = {
     "Accept-Encoding": "gzip, deflate"
 }
 
-# Expanded Master Watchlist of High-Volatility & Clinical-Stage Biotechs
+# Master Watchlist of High-Volatility & Clinical-Stage Biotechs
 BIOTECH_WATCHLIST = {
     "IBRX": {"cik": "0001326110", "sponsor": "ImmunityBio"},
     "VKTX": {"cik": "0001607678", "sponsor": "Viking Therapeutics"},
@@ -62,7 +62,7 @@ def get_sec_financials(cik: str) -> dict:
                 "ShortTermInvestments"
             ])
             total_cash = cash + (mkt if dt1 == dt2 else 0)
-            as_of = dt1 or "N/A"
+            as_of = dt1 or dt2 or "N/A"
         return {"total_liquidity_usd": total_cash, "as_of": as_of}
     except Exception as e:
         print(f"SEC error for {cik}: {e}")
@@ -71,6 +71,7 @@ def get_sec_financials(cik: str) -> dict:
 
 def get_active_trials(sponsor: str) -> dict:
     url = "https://clinicaltrials.gov/api/v2/studies"
+    # STRICT FILTER: Exclude terminated, completed, or withdrawn historical studies
     params = {
         "query.spons": sponsor,
         "filter.overallStatus": "RECRUITING,ACTIVE_NOT_RECRUITING,NOT_YET_RECRUITING",
@@ -92,6 +93,11 @@ def get_active_trials(sponsor: str) -> dict:
             if not nct_id:
                 continue
 
+            status_val = stat.get("overallStatus", "")
+            # Double protection filter against closed/terminated records slipping through
+            if status_val in ["TERMINATED", "COMPLETED", "WITHDRAWN", "SUSPENDED"]:
+                continue
+
             phases = des.get("phases", ["N/A"])
             prim = out_mod.get("primaryOutcomes", [])
             endpoint = prim[0].get("measure", "N/A") if prim else "N/A"
@@ -99,7 +105,7 @@ def get_active_trials(sponsor: str) -> dict:
             trials[nct_id] = {
                 "nct_id": nct_id,
                 "title": ident.get("briefTitle", ""),
-                "status": stat.get("overallStatus", ""),
+                "status": status_val,
                 "phase": "/".join(phases),
                 "completion": stat.get("primaryCompletionDateStruct", {}).get("date", "N/A"),
                 "enrollment": des.get("enrollmentInfo", {}).get("count", 0),
@@ -111,7 +117,6 @@ def get_active_trials(sponsor: str) -> dict:
 
 
 def build_html(companies: list, updated_str: str) -> str:
-    # Build featured spotlight cards for high-profile tickers (e.g., IBRX, VKTX, MRNA)
     spotlight_tickers = ["ibrx", "vktx", "mrna", "crsp"]
     spotlight_html = ""
     cards_html = ""
@@ -121,7 +126,7 @@ def build_html(companies: list, updated_str: str) -> str:
         sorted_trials = sorted(c["trials"].values(), key=lambda x: x["completion"])
         
         rows = ""
-        for t in sorted_trials[:5]:
+        for t in sorted_trials[:6]:
             rows += f"""
             <tr>
               <td><a href="https://clinicaltrials.gov/study/{t['nct_id']}" target="_blank" class="nct-link">{t['nct_id']}</a><div class="sub">{t['phase']}</div></td>
@@ -248,13 +253,14 @@ def main():
         })
 
     with open(STATE_FILE, "w") as f:
+        json.sleep = 0 # no-op
         json.dump(new_state, f, indent=2)
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     html_out = build_html(companies, now_str)
     with open(HTML_OUTPUT, "w", encoding="utf-8") as f:
         f.write(html_out)
-    print("Successfully generated upgraded index.html with featured spotlight and expanded watchlist.")
+    print("Successfully generated polished index.html.")
 
 
 if __name__ == "__main__":
