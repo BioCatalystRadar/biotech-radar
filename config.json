@@ -1,0 +1,19 @@
+{
+  "watchlist": [
+    {"ticker": "IBRX", "name": "ImmunityBio", "aliases": ["ImmunityBio", "ImmunityBio, Inc.", "Altor BioScience"], "queries": ["ImmunityBio", "Altor BioScience"], "spotlight": true},
+    {"ticker": "VKTX", "name": "Viking Therapeutics", "aliases": ["Viking Therapeutics"], "spotlight": true},
+    {"ticker": "CRSP", "name": "CRISPR Therapeutics", "aliases": ["CRISPR Therapeutics"], "spotlight": true},
+    {"ticker": "BEAM", "name": "Beam Therapeutics", "aliases": ["Beam Therapeutics"]},
+    {"ticker": "IOVA", "name": "Iovance Biotherapeutics", "aliases": ["Iovance Biotherapeutics"]},
+    {"ticker": "BDTX", "name": "Black Diamond Therapeutics", "aliases": ["Black Diamond Therapeutics"]},
+    {"ticker": "JANX", "name": "Janux Therapeutics", "aliases": ["Janux Therapeutics"]},
+    {"ticker": "CGON", "name": "CG Oncology", "aliases": ["CG Oncology", "Cold Genesys"]},
+    {"ticker": "NUVL", "name": "Nuvalent", "aliases": ["Nuvalent"]},
+    {"ticker": "SMMT", "name": "Summit Therapeutics", "aliases": ["Summit Therapeutics"]},
+    {"ticker": "MRNA", "name": "Moderna", "aliases": ["Moderna"], "spotlight": true},
+    {"ticker": "BNTX", "name": "BioNTech", "aliases": ["BioNTech", "BioNTech SE"]},
+    {"ticker": "FLNA", "name": "Filana Therapeutics (formerly Cassava Sciences)", "aliases": ["Filana Therapeutics", "Cassava Sciences"]},
+    {"ticker": "RXRX", "name": "Recursion Pharmaceuticals", "aliases": ["Recursion Pharmaceuticals", "Recursion Therapeutics"]},
+    {"ticker": "ABOS", "name": "Acumen Pharmaceuticals", "aliases": ["Acumen Pharmaceuticals"]}
+  ]
+}
