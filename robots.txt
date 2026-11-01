@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://biocatalystradar.github.io/biotech-radar/sitemap.xml
