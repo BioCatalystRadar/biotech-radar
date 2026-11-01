@@ -1,5 +1,5 @@
 {
-  "last_scan_at": "2026-11-01T16:49:08Z",
+  "last_scan_at": "2026-11-01T22:01:30Z",
   "companies": {
     "IBRX": {
       "name": "ImmunityBio",
@@ -1492,7 +1492,7 @@
             "registry_last_update": "2016-07-15"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 357371000,
@@ -1507,7 +1507,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1326110/000132611026000079/0001326110-26-000079-index.htm",
         "status": "reported",
         "cik": "0001326110",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -1700,7 +1700,7 @@
             "registry_last_update": "2025-11-24"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 959813000,
@@ -1715,7 +1715,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1607678/000119312526436432/0001193125-26-436432-index.htm",
         "status": "reported",
         "cik": "0001607678",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2006,7 +2006,7 @@
             "registry_last_update": "2026-07-01"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 2364352000,
@@ -2021,7 +2021,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526330672/0001193125-26-330672-index.htm",
         "status": "reported",
         "cik": "0001674416",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2116,7 +2116,7 @@
             "registry_last_update": "2025-12-16"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 1200000000,
@@ -2127,7 +2127,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1745999/000119312526331541/0001193125-26-331541-index.htm",
         "status": "reported",
         "cik": "0001745999",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2614,7 +2614,7 @@
             "registry_last_update": "2024-11-21"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 297674000,
@@ -2629,7 +2629,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926091716/0001104659-26-091716-index.htm",
         "status": "reported",
         "cik": "0001425205",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2682,7 +2682,7 @@
             "registry_last_update": "2026-10-23"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 110506000,
@@ -2697,7 +2697,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1701541/000170154126000025/0001701541-26-000025-index.htm",
         "status": "reported",
         "cik": "0001701541",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2778,7 +2778,7 @@
             "registry_last_update": "2026-06-01"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 970913000,
@@ -2793,7 +2793,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1817713/000119312526338078/0001193125-26-338078-index.htm",
         "status": "reported",
         "cik": "0001817713",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2916,7 +2916,7 @@
             "registry_last_update": "2026-04-02"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 1028278000,
@@ -2931,7 +2931,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1991792/000119312526336918/0001193125-26-336918-index.htm",
         "status": "reported",
         "cik": "0001991792",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -2998,7 +2998,7 @@
             "registry_last_update": "2026-09-30"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {},
       "source_errors": {
@@ -3558,7 +3558,7 @@
             "registry_last_update": "2026-08-20"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 690678000,
@@ -3573,7 +3573,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000068/0001599298-26-000068-index.htm",
         "status": "reported",
         "cik": "0001599298",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -3598,7 +3598,7 @@
             "registry_last_update": "2026-10-09"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 5138000000,
@@ -3613,7 +3613,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000150/0001682852-26-000150-index.htm",
         "status": "reported",
         "cik": "0001682852",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -5136,7 +5136,7 @@
             "registry_last_update": "2026-08-13"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": null,
@@ -5146,7 +5146,7 @@
         "filing_url": null,
         "status": "unavailable",
         "cik": "0001776985",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -5156,7 +5156,7 @@
       "spotlight": false,
       "clinical": {
         "trials": {},
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 86573000,
@@ -5167,7 +5167,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1069530/000143774926015664/0001437749-26-015664-index.htm",
         "status": "stale",
         "cik": "0001069530",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -5276,7 +5276,7 @@
             "registry_last_update": "2025-11-17"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 545683000,
@@ -5287,7 +5287,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000098/0001601830-26-000098-index.htm",
         "status": "reported",
         "cik": "0001601830",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     },
@@ -5340,7 +5340,7 @@
             "registry_last_update": "2024-10-18"
           }
         },
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "financial": {
         "value_usd": 78600000,
@@ -5351,7 +5351,7 @@
         "filing_url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026067276/0001628280-26-067276-index.htm",
         "status": "reported",
         "cik": "0001576885",
-        "last_success_at": "2026-11-01T16:49:08Z"
+        "last_success_at": "2026-11-01T22:01:30Z"
       },
       "source_errors": {}
     }
