@@ -229,15 +229,24 @@ def compute_financials(payload: dict, cik: str) -> dict:
         raise AssertionError("No selected XBRL figure")
     total = chosen["val"]
     kind = "cash and short-term investments" if use_combined else "cash and cash equivalents"
-    if not use_combined and chosen["taxonomy"] == "us-gaap":
-        investments = latest_instant(facts, INVESTMENT_TAGS)
-        # Same period *and filing accession*: prevent cross-quarter/mixed-entity arithmetic.
-        if (investments and chosen.get("accn")
-                and investments["end"] == chosen["end"]
-                and investments.get("accn") == chosen.get("accn")
-                and investments["val"] >= 0):
-            total += investments["val"]
-            kind = "cash and short-term investments"
+    components = None  # Never manufacture a breakdown when only an aggregate was published.
+    investments = latest_instant(facts, INVESTMENT_TAGS) if chosen["taxonomy"] == "us-gaap" else None
+    def same_filing(a, b):
+        return bool(a and b and a.get("accn") and b.get("accn") == a.get("accn")
+                    and b.get("end") == a.get("end") and b.get("val", -1) >= 0)
+    if use_combined:
+        # Only show components if they independently reconcile to the combined figure.
+        if (same_filing(chosen, cash) and same_filing(chosen, investments)
+                and abs(cash["val"] + investments["val"] - total) <= 1):
+            components = {"cash_equivalents_usd": cash["val"],
+                          "short_term_investments_usd": investments["val"],
+                          "verified_same_filing": True}
+    elif same_filing(chosen, investments):
+        total += investments["val"]
+        kind = "cash and short-term investments"
+        components = {"cash_equivalents_usd": chosen["val"],
+                      "short_term_investments_usd": investments["val"],
+                      "verified_same_filing": True}
     accn = chosen.get("accn") or ""
     filing_url = None
     if re.fullmatch(r"\d{10}-\d{2}-\d{6}", accn):
@@ -248,7 +257,8 @@ def compute_financials(payload: dict, cik: str) -> dict:
         stale = True
     return {"value_usd": total, "as_of": chosen["end"],
             "filed": chosen.get("filed"), "kind": kind,
-            "filing_url": filing_url, "status": "stale" if stale else "reported"}
+            "components": components, "filing_url": filing_url,
+            "status": "stale" if stale else "reported"}
 
 
 def fetch_financials(s: requests.Session, cik: str) -> dict:
