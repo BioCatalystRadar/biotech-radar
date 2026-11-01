@@ -1,10 +1,10 @@
-name: Nightly Biotech Trial & SEC Scanner
+ name: Nightly Biotech Trial & SEC Scanner
 
 on:
   schedule:
-    # Runs automatically every night at 02:00 UTC (10:00 PM EDT)
-    - cron: '0 2 * * *'
-  workflow_dispatch: # Lets you click "Run workflow" manually anytime!
+    # Runs 3x daily (every 8 hours) to catch intraday protocol & 10-Q/10-K drops
+    - cron: '15 2,10,18 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,17 +21,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install requests
-        run: pip install requests
+      - name: Install dependencies
+        run: pip install "requests>=2.32,<3" "urllib3>=2.0,<3"
 
-      - name: Run SEC + ClinicalTrials.gov Diff Engine
-        run: python biotech_engine.py
+      - name: Run ChatGPT Radar Engine
+        env:
+          SEC_USER_AGENT: "BioCatalystRadar contact@biocatalystradar.com"
+        run: python radar.py
 
-      - name: Commit & Push updated website + state
+      - name: Copy generated site to root & commit state
         run: |
+          cp site/index.html site/feed.xml site/robots.txt site/.nojekyll .
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add previous_state.json index.html
-          git diff --staged --quiet || git commit -m "Auto-update daily biotech trial diffs & SEC cash"
+          git add data/ index.html feed.xml robots.txt .nojekyll
+          git diff --staged --quiet || git commit -m "Auto-update BioCatalyst Radar snapshot"
           git push
           
