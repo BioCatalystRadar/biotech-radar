@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link></channel></rss>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IBRX Estimated primary completion moved earlier NCT04898543</title>
+<guid isPermaLink="false">7d12fc59edff1e00f6</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-7d12fc59edff1e00f6</link><description>Before: 2026-05-31; After: 2026-02-02. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT04898543</description>
+<pubDate>Mon, 02 Nov 2026 20:22:03 +0000</pubDate></item>
+<item><title>$IBRX Completion date classification NCT04898543</title>
+<guid isPermaLink="false">fb6c15bc09e0cbc46b</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-fb6c15bc09e0cbc46b</link><description>Before: ESTIMATED; After: ACTUAL. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT04898543</description>
+<pubDate>Mon, 02 Nov 2026 20:22:03 +0000</pubDate></item></channel></rss>

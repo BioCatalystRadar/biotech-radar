@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "7d12fc59edff1e00f6",
+    "ticker": "IBRX",
+    "nct_id": "NCT04898543",
+    "field": "Estimated primary completion moved earlier",
+    "before": "2026-05-31",
+    "after": "2026-02-02",
+    "detected_at": "2026-11-02T20:22:03Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT04898543"
+  },
+  {
+    "id": "fb6c15bc09e0cbc46b",
+    "ticker": "IBRX",
+    "nct_id": "NCT04898543",
+    "field": "Completion date classification",
+    "before": "ESTIMATED",
+    "after": "ACTUAL",
+    "detected_at": "2026-11-02T20:22:03Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT04898543"
+  }
+]
