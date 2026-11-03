@@ -1,5 +1,16 @@
 [
   {
+    "id": "679761114d31a61b35",
+    "ticker": "BEAM",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "1200000000 USD @ 2026-06-30",
+    "after": "1000000000 USD @ 2026-09-30",
+    "detected_at": "2026-11-03T17:50:34Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1745999/000119312526444455/0001193125-26-444455-index.htm"
+  },
+  {
     "id": "18417d084e88815028",
     "ticker": "CRSP",
     "nct_id": null,

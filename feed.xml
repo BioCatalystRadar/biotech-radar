@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$CRSP Reported cash / investments updated</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$BEAM Reported cash / investments updated</title>
+<guid isPermaLink="false">679761114d31a61b35</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/beam.html#event-679761114d31a61b35</link><description>Before: 1200000000 USD @ 2026-06-30; After: 1000000000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1745999/000119312526444455/0001193125-26-444455-index.htm</description>
+<pubDate>Tue, 03 Nov 2026 17:50:34 +0000</pubDate></item>
+<item><title>$CRSP Reported cash / investments updated</title>
 <guid isPermaLink="false">18417d084e88815028</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/crsp.html#event-18417d084e88815028</link><description>Before: 2364352000 USD @ 2026-06-30; After: 2272548000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1674416/000119312526443665/0001193125-26-443665-index.htm</description>
 <pubDate>Tue, 03 Nov 2026 09:32:19 +0000</pubDate></item>
