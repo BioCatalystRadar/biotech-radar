@@ -1,5 +1,27 @@
 [
   {
+    "id": "18417d084e88815028",
+    "ticker": "CRSP",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "2364352000 USD @ 2026-06-30",
+    "after": "2272548000 USD @ 2026-09-30",
+    "detected_at": "2026-11-03T09:32:19Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1674416/000119312526443665/0001193125-26-443665-index.htm"
+  },
+  {
+    "id": "00b52b2d90487f0817",
+    "ticker": "RXRX",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "545683000 USD @ 2026-06-30",
+    "after": "549853000 USD @ 2026-09-30",
+    "detected_at": "2026-11-03T09:32:19Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/0001601830-26-000145-index.htm"
+  },
+  {
     "id": "7d12fc59edff1e00f6",
     "ticker": "IBRX",
     "nct_id": "NCT04898543",

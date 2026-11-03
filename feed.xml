@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IBRX Estimated primary completion moved earlier NCT04898543</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$CRSP Reported cash / investments updated</title>
+<guid isPermaLink="false">18417d084e88815028</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/crsp.html#event-18417d084e88815028</link><description>Before: 2364352000 USD @ 2026-06-30; After: 2272548000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1674416/000119312526443665/0001193125-26-443665-index.htm</description>
+<pubDate>Tue, 03 Nov 2026 09:32:19 +0000</pubDate></item>
+<item><title>$RXRX Reported cash / investments updated</title>
+<guid isPermaLink="false">00b52b2d90487f0817</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/rxrx.html#event-00b52b2d90487f0817</link><description>Before: 545683000 USD @ 2026-06-30; After: 549853000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1601830/000160183026000145/0001601830-26-000145-index.htm</description>
+<pubDate>Tue, 03 Nov 2026 09:32:19 +0000</pubDate></item>
+<item><title>$IBRX Estimated primary completion moved earlier NCT04898543</title>
 <guid isPermaLink="false">7d12fc59edff1e00f6</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-7d12fc59edff1e00f6</link><description>Before: 2026-05-31; After: 2026-02-02. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT04898543</description>
 <pubDate>Mon, 02 Nov 2026 20:22:03 +0000</pubDate></item>
