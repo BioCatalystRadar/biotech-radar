@@ -1,5 +1,16 @@
 [
   {
+    "id": "d646e11bf4c29611e0",
+    "ticker": "SMMT",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "690678000 USD @ 2026-06-30",
+    "after": "629787000 USD @ 2026-09-30",
+    "detected_at": "2026-11-04T23:39:55Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000090/0001599298-26-000090-index.htm"
+  },
+  {
     "id": "8793e975c50ee9c032",
     "ticker": "SMMT",
     "nct_id": "NCT07917481",

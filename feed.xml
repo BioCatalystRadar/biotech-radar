@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$SMMT Newly observed active study NCT07917481</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$SMMT Reported cash / investments updated</title>
+<guid isPermaLink="false">d646e11bf4c29611e0</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/smmt.html#event-d646e11bf4c29611e0</link><description>Before: 690678000 USD @ 2026-06-30; After: 629787000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1599298/000159929826000090/0001599298-26-000090-index.htm</description>
+<pubDate>Wed, 04 Nov 2026 23:39:55 +0000</pubDate></item>
+<item><title>$SMMT Newly observed active study NCT07917481</title>
 <guid isPermaLink="false">8793e975c50ee9c032</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/smmt.html#event-8793e975c50ee9c032</link><description>Before: None; After: A Clinical Study Evaluating the Safety and Efficacy of Ivonescimab as Second-line Treatment in Patients With Advanced Hepatocellular Carcinoma. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07917481</description>
 <pubDate>Wed, 04 Nov 2026 17:59:10 +0000</pubDate></item>
