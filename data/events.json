@@ -1,5 +1,16 @@
 [
   {
+    "id": "8793e975c50ee9c032",
+    "ticker": "SMMT",
+    "nct_id": "NCT07917481",
+    "field": "Newly observed active study",
+    "before": null,
+    "after": "A Clinical Study Evaluating the Safety and Efficacy of Ivonescimab as Second-line Treatment in Patients With Advanced Hepatocellular Carcinoma",
+    "detected_at": "2026-11-04T17:59:10Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07917481"
+  },
+  {
     "id": "679761114d31a61b35",
     "ticker": "BEAM",
     "nct_id": null,
