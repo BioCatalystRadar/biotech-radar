@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$SMMT Reported cash / investments updated</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IOVA Reported cash / investments updated</title>
+<guid isPermaLink="false">8c5c1ba472331308fc</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/iova.html#event-8c5c1ba472331308fc</link><description>Before: 297674000 USD @ 2026-06-30; After: 376320000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1425205/000119312526448809/0001193125-26-448809-index.htm</description>
+<pubDate>Thu, 05 Nov 2026 18:00:39 +0000</pubDate></item>
+<item><title>$SMMT Enrollment target / count NCT07228832</title>
+<guid isPermaLink="false">737228a4fcc9f63ec0</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/smmt.html#event-737228a4fcc9f63ec0</link><description>Before: 600; After: 900. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07228832</description>
+<pubDate>Thu, 05 Nov 2026 18:00:39 +0000</pubDate></item>
+<item><title>$SMMT Reported cash / investments updated</title>
 <guid isPermaLink="false">d646e11bf4c29611e0</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/smmt.html#event-d646e11bf4c29611e0</link><description>Before: 690678000 USD @ 2026-06-30; After: 629787000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1599298/000159929826000090/0001599298-26-000090-index.htm</description>
 <pubDate>Wed, 04 Nov 2026 23:39:55 +0000</pubDate></item>

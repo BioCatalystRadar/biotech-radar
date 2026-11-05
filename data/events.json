@@ -1,5 +1,27 @@
 [
   {
+    "id": "8c5c1ba472331308fc",
+    "ticker": "IOVA",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "297674000 USD @ 2026-06-30",
+    "after": "376320000 USD @ 2026-09-30",
+    "detected_at": "2026-11-05T18:00:39Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1425205/000119312526448809/0001193125-26-448809-index.htm"
+  },
+  {
+    "id": "737228a4fcc9f63ec0",
+    "ticker": "SMMT",
+    "nct_id": "NCT07228832",
+    "field": "Enrollment target / count",
+    "before": 600,
+    "after": 900,
+    "detected_at": "2026-11-05T18:00:39Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07228832"
+  },
+  {
     "id": "d646e11bf4c29611e0",
     "ticker": "SMMT",
     "nct_id": null,
