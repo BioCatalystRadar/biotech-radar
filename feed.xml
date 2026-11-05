@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IOVA Reported cash / investments updated</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$JANX Reported cash / investments updated</title>
+<guid isPermaLink="false">f6cc42446823f40ac7</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/janx.html#event-f6cc42446823f40ac7</link><description>Before: 970913000 USD @ 2026-06-30; After: 945717000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1817713/000119312526449918/0001193125-26-449918-index.htm</description>
+<pubDate>Thu, 05 Nov 2026 23:38:03 +0000</pubDate></item>
+<item><title>$FLNA Reported cash / investments updated</title>
+<guid isPermaLink="false">a6b00ad5e97597f07f</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/flna.html#event-a6b00ad5e97597f07f</link><description>Before: 86573000 USD @ 2026-03-31; After: 46990000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1069530/000143774926035262/0001437749-26-035262-index.htm</description>
+<pubDate>Thu, 05 Nov 2026 23:38:03 +0000</pubDate></item>
+<item><title>$IOVA Reported cash / investments updated</title>
 <guid isPermaLink="false">8c5c1ba472331308fc</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/iova.html#event-8c5c1ba472331308fc</link><description>Before: 297674000 USD @ 2026-06-30; After: 376320000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1425205/000119312526448809/0001193125-26-448809-index.htm</description>
 <pubDate>Thu, 05 Nov 2026 18:00:39 +0000</pubDate></item>

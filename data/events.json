@@ -1,5 +1,27 @@
 [
   {
+    "id": "f6cc42446823f40ac7",
+    "ticker": "JANX",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "970913000 USD @ 2026-06-30",
+    "after": "945717000 USD @ 2026-09-30",
+    "detected_at": "2026-11-05T23:38:03Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1817713/000119312526449918/0001193125-26-449918-index.htm"
+  },
+  {
+    "id": "a6b00ad5e97597f07f",
+    "ticker": "FLNA",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "86573000 USD @ 2026-03-31",
+    "after": "46990000 USD @ 2026-09-30",
+    "detected_at": "2026-11-05T23:38:03Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1069530/000143774926035262/0001437749-26-035262-index.htm"
+  },
+  {
     "id": "8c5c1ba472331308fc",
     "ticker": "IOVA",
     "nct_id": null,
