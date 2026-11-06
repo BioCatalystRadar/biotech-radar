@@ -1,5 +1,16 @@
 [
   {
+    "id": "c3f72ddf90ac735bcc",
+    "ticker": "MRNA",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "5138000000 USD @ 2026-06-30",
+    "after": "5171000000 USD @ 2026-09-30",
+    "detected_at": "2026-11-06T23:07:39Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285226000197/0001682852-26-000197-index.htm"
+  },
+  {
     "id": "3f402b6338fd29c617",
     "ticker": "CGON",
     "nct_id": null,
