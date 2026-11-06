@@ -1,5 +1,16 @@
 [
   {
+    "id": "3f402b6338fd29c617",
+    "ticker": "CGON",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "1028278000 USD @ 2026-06-30",
+    "after": "984458000 USD @ 2026-09-30",
+    "detected_at": "2026-11-06T17:29:01Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1991792/000199179226000012/0001991792-26-000012-index.htm"
+  },
+  {
     "id": "f6cc42446823f40ac7",
     "ticker": "JANX",
     "nct_id": null,

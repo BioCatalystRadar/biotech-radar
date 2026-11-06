@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$JANX Reported cash / investments updated</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$CGON Reported cash / investments updated</title>
+<guid isPermaLink="false">3f402b6338fd29c617</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/cgon.html#event-3f402b6338fd29c617</link><description>Before: 1028278000 USD @ 2026-06-30; After: 984458000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1991792/000199179226000012/0001991792-26-000012-index.htm</description>
+<pubDate>Fri, 06 Nov 2026 17:29:01 +0000</pubDate></item>
+<item><title>$JANX Reported cash / investments updated</title>
 <guid isPermaLink="false">f6cc42446823f40ac7</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/janx.html#event-f6cc42446823f40ac7</link><description>Before: 970913000 USD @ 2026-06-30; After: 945717000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1817713/000119312526449918/0001193125-26-449918-index.htm</description>
 <pubDate>Thu, 05 Nov 2026 23:38:03 +0000</pubDate></item>
