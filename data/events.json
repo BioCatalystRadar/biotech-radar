@@ -1,5 +1,27 @@
 [
   {
+    "id": "9d75e5d94ffd142753",
+    "ticker": "IBRX",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "357371000 USD @ 2026-06-30",
+    "after": "334329000 USD @ 2026-09-30",
+    "detected_at": "2026-11-09T20:43:03Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1326110/000132611026000099/0001326110-26-000099-index.htm"
+  },
+  {
+    "id": "45eccfc6445eba0058",
+    "ticker": "IOVA",
+    "nct_id": "NCT07925333",
+    "field": "Newly observed active study",
+    "before": null,
+    "after": "Lifileucel (TIL) Therapy After PD-1 Blockade Failure in Kidney Cancer",
+    "detected_at": "2026-11-09T20:43:03Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07925333"
+  },
+  {
     "id": "c3f72ddf90ac735bcc",
     "ticker": "MRNA",
     "nct_id": null,
