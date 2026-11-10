@@ -1,5 +1,16 @@
 [
   {
+    "id": "c77919f20509a48a78",
+    "ticker": "BDTX",
+    "nct_id": null,
+    "field": "Reported cash / investments updated",
+    "before": "110506000 USD @ 2026-06-30",
+    "after": "102030000 USD @ 2026-09-30",
+    "detected_at": "2026-11-10T17:49:52Z",
+    "importance": "medium",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1701541/000170154126000032/0001701541-26-000032-index.htm"
+  },
+  {
     "id": "9d75e5d94ffd142753",
     "ticker": "IBRX",
     "nct_id": null,

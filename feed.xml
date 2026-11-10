@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IBRX Reported cash / investments updated</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$BDTX Reported cash / investments updated</title>
+<guid isPermaLink="false">c77919f20509a48a78</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-c77919f20509a48a78</link><description>Before: 110506000 USD @ 2026-06-30; After: 102030000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1701541/000170154126000032/0001701541-26-000032-index.htm</description>
+<pubDate>Tue, 10 Nov 2026 17:49:52 +0000</pubDate></item>
+<item><title>$IBRX Reported cash / investments updated</title>
 <guid isPermaLink="false">9d75e5d94ffd142753</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-9d75e5d94ffd142753</link><description>Before: 357371000 USD @ 2026-06-30; After: 334329000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1326110/000132611026000099/0001326110-26-000099-index.htm</description>
 <pubDate>Mon, 09 Nov 2026 20:43:03 +0000</pubDate></item>
