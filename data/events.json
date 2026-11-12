@@ -1,5 +1,27 @@
 [
   {
+    "id": "8b1a572e0ef4064164",
+    "ticker": "ABOS",
+    "nct_id": "NCT06335173",
+    "field": "Estimated primary completion changed (date precision or overlapping interval)",
+    "before": "2026-10",
+    "after": "2026-10-29",
+    "detected_at": "2026-11-12T18:19:16Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT06335173"
+  },
+  {
+    "id": "3d93579fa758bbcbba",
+    "ticker": "ABOS",
+    "nct_id": "NCT06335173",
+    "field": "Completion date classification",
+    "before": "ESTIMATED",
+    "after": "ACTUAL",
+    "detected_at": "2026-11-12T18:19:16Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT06335173"
+  },
+  {
     "id": "c77919f20509a48a78",
     "ticker": "BDTX",
     "nct_id": null,

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$BDTX Reported cash / investments updated</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$ABOS Estimated primary completion changed (date precision or overlapping interval) NCT06335173</title>
+<guid isPermaLink="false">8b1a572e0ef4064164</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/abos.html#event-8b1a572e0ef4064164</link><description>Before: 2026-10; After: 2026-10-29. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06335173</description>
+<pubDate>Thu, 12 Nov 2026 18:19:16 +0000</pubDate></item>
+<item><title>$ABOS Completion date classification NCT06335173</title>
+<guid isPermaLink="false">3d93579fa758bbcbba</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/abos.html#event-3d93579fa758bbcbba</link><description>Before: ESTIMATED; After: ACTUAL. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06335173</description>
+<pubDate>Thu, 12 Nov 2026 18:19:16 +0000</pubDate></item>
+<item><title>$BDTX Reported cash / investments updated</title>
 <guid isPermaLink="false">c77919f20509a48a78</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-c77919f20509a48a78</link><description>Before: 110506000 USD @ 2026-06-30; After: 102030000 USD @ 2026-09-30. Observed difference; verify primary source: https://www.sec.gov/Archives/edgar/data/1701541/000170154126000032/0001701541-26-000032-index.htm</description>
 <pubDate>Tue, 10 Nov 2026 17:49:52 +0000</pubDate></item>
