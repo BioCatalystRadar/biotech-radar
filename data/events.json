@@ -1,5 +1,49 @@
 [
   {
+    "id": "0961c8791fc8aa84d0",
+    "ticker": "CRSP",
+    "nct_id": "NCT07850076",
+    "field": "Estimated primary completion changed (date precision or overlapping interval)",
+    "before": "2030-06-30",
+    "after": "2030-06",
+    "detected_at": "2026-11-13T17:43:58Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07850076"
+  },
+  {
+    "id": "fb467e4d20bba2a600",
+    "ticker": "CRSP",
+    "nct_id": "NCT07850076",
+    "field": "Recruitment status",
+    "before": "NOT_YET_RECRUITING",
+    "after": "RECRUITING",
+    "detected_at": "2026-11-13T17:43:58Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07850076"
+  },
+  {
+    "id": "7a3a51845619d1a37d",
+    "ticker": "BEAM",
+    "nct_id": "NCT06934382",
+    "field": "Recruitment status",
+    "before": "RECRUITING",
+    "after": "ACTIVE_NOT_RECRUITING",
+    "detected_at": "2026-11-13T17:43:58Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT06934382"
+  },
+  {
+    "id": "81b9fd17f1411a9d00",
+    "ticker": "SMMT",
+    "nct_id": "NCT05536141",
+    "field": "Newly observed active study",
+    "before": null,
+    "after": "A Phase 1 Study of AB521 Monotherapy and Combination Therapies in Renal Cell Carcinoma and Other Solid Tumors",
+    "detected_at": "2026-11-13T17:43:58Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT05536141"
+  },
+  {
     "id": "8b1a572e0ef4064164",
     "ticker": "ABOS",
     "nct_id": "NCT06335173",

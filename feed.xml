@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$ABOS Estimated primary completion changed (date precision or overlapping interval) NCT06335173</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$CRSP Estimated primary completion changed (date precision or overlapping interval) NCT07850076</title>
+<guid isPermaLink="false">0961c8791fc8aa84d0</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/crsp.html#event-0961c8791fc8aa84d0</link><description>Before: 2030-06-30; After: 2030-06. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07850076</description>
+<pubDate>Fri, 13 Nov 2026 17:43:58 +0000</pubDate></item>
+<item><title>$CRSP Recruitment status NCT07850076</title>
+<guid isPermaLink="false">fb467e4d20bba2a600</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/crsp.html#event-fb467e4d20bba2a600</link><description>Before: NOT_YET_RECRUITING; After: RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07850076</description>
+<pubDate>Fri, 13 Nov 2026 17:43:58 +0000</pubDate></item>
+<item><title>$BEAM Recruitment status NCT06934382</title>
+<guid isPermaLink="false">7a3a51845619d1a37d</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/beam.html#event-7a3a51845619d1a37d</link><description>Before: RECRUITING; After: ACTIVE_NOT_RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06934382</description>
+<pubDate>Fri, 13 Nov 2026 17:43:58 +0000</pubDate></item>
+<item><title>$SMMT Newly observed active study NCT05536141</title>
+<guid isPermaLink="false">81b9fd17f1411a9d00</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/smmt.html#event-81b9fd17f1411a9d00</link><description>Before: None; After: A Phase 1 Study of AB521 Monotherapy and Combination Therapies in Renal Cell Carcinoma and Other Solid Tumors. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05536141</description>
+<pubDate>Fri, 13 Nov 2026 17:43:58 +0000</pubDate></item>
+<item><title>$ABOS Estimated primary completion changed (date precision or overlapping interval) NCT06335173</title>
 <guid isPermaLink="false">8b1a572e0ef4064164</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/abos.html#event-8b1a572e0ef4064164</link><description>Before: 2026-10; After: 2026-10-29. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06335173</description>
 <pubDate>Thu, 12 Nov 2026 18:19:16 +0000</pubDate></item>
