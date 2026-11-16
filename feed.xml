@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$CRSP Estimated primary completion changed (date precision or overlapping interval) NCT07850076</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$VKTX Recruitment status NCT07868939</title>
+<guid isPermaLink="false">1a1b53be007a132b8b</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/vktx.html#event-1a1b53be007a132b8b</link><description>Before: NOT_YET_RECRUITING; After: RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07868939</description>
+<pubDate>Mon, 16 Nov 2026 20:28:29 +0000</pubDate></item>
+<item><title>$VKTX Recruitment status NCT07868835</title>
+<guid isPermaLink="false">e6fa295113bb8f568f</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/vktx.html#event-e6fa295113bb8f568f</link><description>Before: NOT_YET_RECRUITING; After: RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07868835</description>
+<pubDate>Mon, 16 Nov 2026 20:28:29 +0000</pubDate></item>
+<item><title>$CRSP Estimated primary completion changed (date precision or overlapping interval) NCT07850076</title>
 <guid isPermaLink="false">0961c8791fc8aa84d0</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/crsp.html#event-0961c8791fc8aa84d0</link><description>Before: 2030-06-30; After: 2030-06. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07850076</description>
 <pubDate>Fri, 13 Nov 2026 17:43:58 +0000</pubDate></item>

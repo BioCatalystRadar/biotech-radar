@@ -1,5 +1,27 @@
 [
   {
+    "id": "1a1b53be007a132b8b",
+    "ticker": "VKTX",
+    "nct_id": "NCT07868939",
+    "field": "Recruitment status",
+    "before": "NOT_YET_RECRUITING",
+    "after": "RECRUITING",
+    "detected_at": "2026-11-16T20:28:29Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07868939"
+  },
+  {
+    "id": "e6fa295113bb8f568f",
+    "ticker": "VKTX",
+    "nct_id": "NCT07868835",
+    "field": "Recruitment status",
+    "before": "NOT_YET_RECRUITING",
+    "after": "RECRUITING",
+    "detected_at": "2026-11-16T20:28:29Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07868835"
+  },
+  {
     "id": "0961c8791fc8aa84d0",
     "ticker": "CRSP",
     "nct_id": "NCT07850076",
