@@ -1,5 +1,126 @@
 [
   {
+    "id": "3d050d6572204f2772",
+    "ticker": "BDTX",
+    "nct_id": "NCT05256290",
+    "field": "Estimated primary completion moved later",
+    "before": "2025-11-03",
+    "after": "2028-03",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT05256290"
+  },
+  {
+    "id": "7a3ab2b2bf512d1714",
+    "ticker": "BDTX",
+    "nct_id": "NCT05256290",
+    "field": "Completion date classification",
+    "before": "ACTUAL",
+    "after": "ESTIMATED",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT05256290"
+  },
+  {
+    "id": "87b586440d2d0f6dba",
+    "ticker": "BDTX",
+    "nct_id": "NCT05256290",
+    "field": "Enrollment target / count",
+    "before": 200,
+    "after": 220,
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT05256290"
+  },
+  {
+    "id": "92458288c740b2e788",
+    "ticker": "BDTX",
+    "nct_id": "NCT05256290",
+    "field": "Primary outcome measure",
+    "before": "Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535); Phase 2: To assess antitumor efficacy of silevertinib (BDTX-1535)",
+    "after": "Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535); Phase 2 (Cohorts 1, 2, and 3): To assess antitumor efficacy of silevertinib (BDTX-1535); Phase 2 Cohort 4 Only: To assess the safety and tolerability of silevertinib at the 150 mg QD dose",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT05256290"
+  },
+  {
+    "id": "c8bf5769b71a3a2418",
+    "ticker": "BDTX",
+    "nct_id": "NCT05256290",
+    "field": "Primary outcome time frame",
+    "before": "The first treatment 21-day cycle (Cycle 1); Day 1 every 2 cycles starting on Cycle 3 Day 1 to study completion, approximately 1 year (each cycle is 21 days)",
+    "after": "The first treatment 21-day cycle (Cycle 1); Day 1 every 2 cycles starting on Cycle 3 Day 1 to study completion, approximately 1 year (each cycle is 21 days); Through study completion, approximately 1 year",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT05256290"
+  },
+  {
+    "id": "e56074b70d9e623163",
+    "ticker": "BDTX",
+    "nct_id": "NCT05256290",
+    "field": "Recruitment status",
+    "before": "ACTIVE_NOT_RECRUITING",
+    "after": "RECRUITING",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT05256290"
+  },
+  {
+    "id": "f2da231debf9a56ab6",
+    "ticker": "BNTX",
+    "nct_id": "NCT07798648",
+    "field": "Estimated primary completion moved earlier",
+    "before": "2027-04-21",
+    "after": "2027-04-12",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07798648"
+  },
+  {
+    "id": "a7a9e1b3d7d3058656",
+    "ticker": "BNTX",
+    "nct_id": "NCT07798648",
+    "field": "Enrollment target / count",
+    "before": 700,
+    "after": 713,
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07798648"
+  },
+  {
+    "id": "1b34a6de4a5825d352",
+    "ticker": "BNTX",
+    "nct_id": "NCT07798648",
+    "field": "Enrollment classification",
+    "before": "ESTIMATED",
+    "after": "ACTUAL",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07798648"
+  },
+  {
+    "id": "fca55b923a3a1f642d",
+    "ticker": "BNTX",
+    "nct_id": "NCT07798648",
+    "field": "Primary outcome time frame",
+    "before": "For up to 7 days after vaccination; Through 1 month after vaccination; Through 6 months after vaccination; From baseline to 1 month after vaccination",
+    "after": "For up to 7 days after vaccination; From vaccination through 1 month after vaccination; From vaccination up to 6 months; From baseline through 1 month after vaccination",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07798648"
+  },
+  {
+    "id": "367d00401c10b25af6",
+    "ticker": "BNTX",
+    "nct_id": "NCT07798648",
+    "field": "Recruitment status",
+    "before": "RECRUITING",
+    "after": "ACTIVE_NOT_RECRUITING",
+    "detected_at": "2026-11-18T18:50:57Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07798648"
+  },
+  {
     "id": "e1dd28beb735fb6fb2",
     "ticker": "IBRX",
     "nct_id": "NCT07783789",

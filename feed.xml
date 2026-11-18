@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IBRX Primary outcome time frame NCT07783789</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$BDTX Estimated primary completion moved later NCT05256290</title>
+<guid isPermaLink="false">3d050d6572204f2772</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-3d050d6572204f2772</link><description>Before: 2025-11-03; After: 2028-03. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BDTX Completion date classification NCT05256290</title>
+<guid isPermaLink="false">7a3ab2b2bf512d1714</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-7a3ab2b2bf512d1714</link><description>Before: ACTUAL; After: ESTIMATED. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BDTX Enrollment target / count NCT05256290</title>
+<guid isPermaLink="false">87b586440d2d0f6dba</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-87b586440d2d0f6dba</link><description>Before: 200; After: 220. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BDTX Primary outcome measure NCT05256290</title>
+<guid isPermaLink="false">92458288c740b2e788</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-92458288c740b2e788</link><description>Before: Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535); Phase 2: To assess antitumor efficacy of silevertinib (BDTX-1535); After: Phase 1 Dose Escalation: To determine the maximum tolerated dose (MTD), if one exists, and the preliminary recommended Phase 2 dose(s) (RP2D[s]) of silevertinib (BDTX-1535); Phase 2 (Cohorts 1, 2, and 3): To assess antitumor efficacy of silevertinib (BDTX-1535); Phase 2 Cohort 4 Only: To assess the safety and tolerability of silevertinib at the 150 mg QD dose. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BDTX Primary outcome time frame NCT05256290</title>
+<guid isPermaLink="false">c8bf5769b71a3a2418</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-c8bf5769b71a3a2418</link><description>Before: The first treatment 21-day cycle (Cycle 1); Day 1 every 2 cycles starting on Cycle 3 Day 1 to study completion, approximately 1 year (each cycle is 21 days); After: The first treatment 21-day cycle (Cycle 1); Day 1 every 2 cycles starting on Cycle 3 Day 1 to study completion, approximately 1 year (each cycle is 21 days); Through study completion, approximately 1 year. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BDTX Recruitment status NCT05256290</title>
+<guid isPermaLink="false">e56074b70d9e623163</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-e56074b70d9e623163</link><description>Before: ACTIVE_NOT_RECRUITING; After: RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BNTX Estimated primary completion moved earlier NCT07798648</title>
+<guid isPermaLink="false">f2da231debf9a56ab6</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-f2da231debf9a56ab6</link><description>Before: 2027-04-21; After: 2027-04-12. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07798648</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BNTX Enrollment target / count NCT07798648</title>
+<guid isPermaLink="false">a7a9e1b3d7d3058656</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-a7a9e1b3d7d3058656</link><description>Before: 700; After: 713. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07798648</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BNTX Enrollment classification NCT07798648</title>
+<guid isPermaLink="false">1b34a6de4a5825d352</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-1b34a6de4a5825d352</link><description>Before: ESTIMATED; After: ACTUAL. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07798648</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BNTX Primary outcome time frame NCT07798648</title>
+<guid isPermaLink="false">fca55b923a3a1f642d</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-fca55b923a3a1f642d</link><description>Before: For up to 7 days after vaccination; Through 1 month after vaccination; Through 6 months after vaccination; From baseline to 1 month after vaccination; After: For up to 7 days after vaccination; From vaccination through 1 month after vaccination; From vaccination up to 6 months; From baseline through 1 month after vaccination. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07798648</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$BNTX Recruitment status NCT07798648</title>
+<guid isPermaLink="false">367d00401c10b25af6</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-367d00401c10b25af6</link><description>Before: RECRUITING; After: ACTIVE_NOT_RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07798648</description>
+<pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
+<item><title>$IBRX Primary outcome time frame NCT07783789</title>
 <guid isPermaLink="false">e1dd28beb735fb6fb2</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-e1dd28beb735fb6fb2</link><description>Before: From Day 1 (first NAI dose) through Day 28; After: From Day 1 (first dose of study treatment) through Day 28. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07783789</description>
 <pubDate>Wed, 18 Nov 2026 00:57:51 +0000</pubDate></item>
