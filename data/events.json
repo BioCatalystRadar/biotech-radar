@@ -1,5 +1,27 @@
 [
   {
+    "id": "e1dd28beb735fb6fb2",
+    "ticker": "IBRX",
+    "nct_id": "NCT07783789",
+    "field": "Primary outcome time frame",
+    "before": "From Day 1 (first NAI dose) through Day 28",
+    "after": "From Day 1 (first dose of study treatment) through Day 28",
+    "detected_at": "2026-11-18T00:57:51Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07783789"
+  },
+  {
+    "id": "03d6fa21c1ae7f0117",
+    "ticker": "IBRX",
+    "nct_id": "NCT07578558",
+    "field": "Exited active-trial set",
+    "before": "NOT_YET_RECRUITING",
+    "after": "WITHDRAWN",
+    "detected_at": "2026-11-18T00:57:51Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07578558"
+  },
+  {
     "id": "1a1b53be007a132b8b",
     "ticker": "VKTX",
     "nct_id": "NCT07868939",

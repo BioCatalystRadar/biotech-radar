@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$VKTX Recruitment status NCT07868939</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$IBRX Primary outcome time frame NCT07783789</title>
+<guid isPermaLink="false">e1dd28beb735fb6fb2</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-e1dd28beb735fb6fb2</link><description>Before: From Day 1 (first NAI dose) through Day 28; After: From Day 1 (first dose of study treatment) through Day 28. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07783789</description>
+<pubDate>Wed, 18 Nov 2026 00:57:51 +0000</pubDate></item>
+<item><title>$IBRX Exited active-trial set NCT07578558</title>
+<guid isPermaLink="false">03d6fa21c1ae7f0117</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/ibrx.html#event-03d6fa21c1ae7f0117</link><description>Before: NOT_YET_RECRUITING; After: WITHDRAWN. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07578558</description>
+<pubDate>Wed, 18 Nov 2026 00:57:51 +0000</pubDate></item>
+<item><title>$VKTX Recruitment status NCT07868939</title>
 <guid isPermaLink="false">1a1b53be007a132b8b</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/vktx.html#event-1a1b53be007a132b8b</link><description>Before: NOT_YET_RECRUITING; After: RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07868939</description>
 <pubDate>Mon, 16 Nov 2026 20:28:29 +0000</pubDate></item>
