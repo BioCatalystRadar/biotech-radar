@@ -1,5 +1,16 @@
 [
   {
+    "id": "a2d6ef553b2eda23a9",
+    "ticker": "BNTX",
+    "nct_id": "NCT07951359",
+    "field": "Newly observed active study",
+    "before": null,
+    "after": "A First-in-human, Dose Escalation, and Expansion Study of BNT3211 for Participants With Advanced Solid Tumors",
+    "detected_at": "2026-11-20T18:36:39Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT07951359"
+  },
+  {
     "id": "f49ec61974982e6ce4",
     "ticker": "RXRX",
     "nct_id": "NCT06678659",
