@@ -1,5 +1,27 @@
 [
   {
+    "id": "f49ec61974982e6ce4",
+    "ticker": "RXRX",
+    "nct_id": "NCT06678659",
+    "field": "Estimated primary completion moved later",
+    "before": "2028-10-30",
+    "after": "2029-07",
+    "detected_at": "2026-11-20T00:36:53Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT06678659"
+  },
+  {
+    "id": "6db509dd14e0b335c9",
+    "ticker": "RXRX",
+    "nct_id": "NCT06678659",
+    "field": "Enrollment target / count",
+    "before": 170,
+    "after": 310,
+    "detected_at": "2026-11-20T00:36:53Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT06678659"
+  },
+  {
     "id": "3d050d6572204f2772",
     "ticker": "BDTX",
     "nct_id": "NCT05256290",

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$BDTX Estimated primary completion moved later NCT05256290</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$RXRX Estimated primary completion moved later NCT06678659</title>
+<guid isPermaLink="false">f49ec61974982e6ce4</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/rxrx.html#event-f49ec61974982e6ce4</link><description>Before: 2028-10-30; After: 2029-07. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06678659</description>
+<pubDate>Fri, 20 Nov 2026 00:36:53 +0000</pubDate></item>
+<item><title>$RXRX Enrollment target / count NCT06678659</title>
+<guid isPermaLink="false">6db509dd14e0b335c9</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/rxrx.html#event-6db509dd14e0b335c9</link><description>Before: 170; After: 310. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06678659</description>
+<pubDate>Fri, 20 Nov 2026 00:36:53 +0000</pubDate></item>
+<item><title>$BDTX Estimated primary completion moved later NCT05256290</title>
 <guid isPermaLink="false">3d050d6572204f2772</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/bdtx.html#event-3d050d6572204f2772</link><description>Before: 2025-11-03; After: 2028-03. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT05256290</description>
 <pubDate>Wed, 18 Nov 2026 18:50:57 +0000</pubDate></item>
