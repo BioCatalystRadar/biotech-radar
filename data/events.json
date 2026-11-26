@@ -1,5 +1,16 @@
 [
   {
+    "id": "49d5b0a795d0a802cd",
+    "ticker": "SMMT",
+    "nct_id": "NCT07359456",
+    "field": "Estimated primary completion moved later",
+    "before": "2029-08",
+    "after": "2029-12",
+    "detected_at": "2026-11-26T01:46:29Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT07359456"
+  },
+  {
     "id": "525b557dcff27e2122",
     "ticker": "BNTX",
     "nct_id": "NCT07392372",
