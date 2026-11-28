@@ -1,5 +1,38 @@
 [
   {
+    "id": "0a60ef6b52707354b8",
+    "ticker": "BNTX",
+    "nct_id": "NCT06841055",
+    "field": "Enrollment target / count",
+    "before": 60,
+    "after": 59,
+    "detected_at": "2026-11-28T01:26:56Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT06841055"
+  },
+  {
+    "id": "127aa6a1c772bb48d1",
+    "ticker": "BNTX",
+    "nct_id": "NCT06841055",
+    "field": "Enrollment classification",
+    "before": "ESTIMATED",
+    "after": "ACTUAL",
+    "detected_at": "2026-11-28T01:26:56Z",
+    "importance": "medium",
+    "source_url": "https://clinicaltrials.gov/study/NCT06841055"
+  },
+  {
+    "id": "f93952158e831be04b",
+    "ticker": "BNTX",
+    "nct_id": "NCT06841055",
+    "field": "Recruitment status",
+    "before": "RECRUITING",
+    "after": "ACTIVE_NOT_RECRUITING",
+    "detected_at": "2026-11-28T01:26:56Z",
+    "importance": "high",
+    "source_url": "https://clinicaltrials.gov/study/NCT06841055"
+  },
+  {
     "id": "49d5b0a795d0a802cd",
     "ticker": "SMMT",
     "nct_id": "NCT07359456",

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>BioCatalyst Radar Changes</title>
 <description>Public registry and SEC XBRL snapshot differences; check primary sources.</description>
-<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$SMMT Estimated primary completion moved later NCT07359456</title>
+<link>https://biocatalystradar.github.io/biotech-radar/</link><item><title>$BNTX Enrollment target / count NCT06841055</title>
+<guid isPermaLink="false">0a60ef6b52707354b8</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-0a60ef6b52707354b8</link><description>Before: 60; After: 59. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06841055</description>
+<pubDate>Sat, 28 Nov 2026 01:26:56 +0000</pubDate></item>
+<item><title>$BNTX Enrollment classification NCT06841055</title>
+<guid isPermaLink="false">127aa6a1c772bb48d1</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-127aa6a1c772bb48d1</link><description>Before: ESTIMATED; After: ACTUAL. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06841055</description>
+<pubDate>Sat, 28 Nov 2026 01:26:56 +0000</pubDate></item>
+<item><title>$BNTX Recruitment status NCT06841055</title>
+<guid isPermaLink="false">f93952158e831be04b</guid>
+<link>https://biocatalystradar.github.io/biotech-radar/company/bntx.html#event-f93952158e831be04b</link><description>Before: RECRUITING; After: ACTIVE_NOT_RECRUITING. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT06841055</description>
+<pubDate>Sat, 28 Nov 2026 01:26:56 +0000</pubDate></item>
+<item><title>$SMMT Estimated primary completion moved later NCT07359456</title>
 <guid isPermaLink="false">49d5b0a795d0a802cd</guid>
 <link>https://biocatalystradar.github.io/biotech-radar/company/smmt.html#event-49d5b0a795d0a802cd</link><description>Before: 2029-08; After: 2029-12. Observed difference; verify primary source: https://clinicaltrials.gov/study/NCT07359456</description>
 <pubDate>Thu, 26 Nov 2026 01:46:29 +0000</pubDate></item>
